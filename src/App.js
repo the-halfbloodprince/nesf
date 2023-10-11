@@ -1,16 +1,23 @@
 import react from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
-} from 'react-router-dom'
+} from 'react-router-dom';
+import Alumni from './MyComponents/Alumni/Alumni';
+
 
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path= "/MyComponents/Alumni" element={<Alumni/>}>
+          </Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
