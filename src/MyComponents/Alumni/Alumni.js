@@ -1,11 +1,16 @@
-import './Alumni.module.css'; 
-import AlumniCard from './Card';
+import styles from './Alumni.module.css'
+import CardBatch from './CardBatch';
+import CardIndividual from './CardIndividual';
+
 const Alumni = () => {
     return ( 
-        <div className="alumni">
-            <p className="page">This is Alumni Page</p>
-            <div className="alumnicard">
-                <AlumniCard/>
+        <div className={styles.alumni}>
+            <div className={styles.batches}>
+                <CardBatch/>
+            </div>
+            <div className={styles.individuals}>
+                <CardIndividual/>
+                <CardIndividual/>
             </div>
         </div>
      );

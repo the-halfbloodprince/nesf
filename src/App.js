@@ -1,9 +1,8 @@
-import react from 'react';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  // Link
 } from 'react-router-dom';
 import Alumni from './MyComponents/Alumni/Alumni';
 
@@ -13,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path= "/MyComponents/Alumni" element={<Alumni/>}>
+          <Route exact path= "/Alumni" element={<Alumni/>}>
           </Route>
         </Routes>
       </div>
