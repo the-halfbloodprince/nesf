@@ -1,16 +1,8 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-
-function navy(){
-   const navigate=useNavigate();
-}
-function handleClick(){
-    navigate("/articles")
-}
 
 
-const Events =() =>{
+function Events(){
     return(
         <div>
             <h1>NESF Events Page</h1>
