@@ -15,6 +15,11 @@ function App() {
         <Routes>
           <Route exact path= "/Alumni" element={<Alumni/>}>
           </Route>
+// <<<<<<< Penuel/AboutUs
+// =======
+//           <Route exact path="/Teams" element={<Teams/>}>
+//           </Route>
+// >>>>>>> main
           <Route exact path="AboutUs" element={<AboutUs/>}>
           </Route>
         </Routes>
