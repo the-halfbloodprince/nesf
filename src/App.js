@@ -10,6 +10,7 @@ import Teams from './MyComponents/Teams/Teams';
 import AboutUs from './MyComponents/AboutUs/AboutUs';
 import Events from  './MyComponents/Events/Events';
 import Articles from './MyComponents/Events/Articles.js';
+import Footer from './MyComponents/Footer/Footer.js';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/Events" element={<Events/>}/>
           <Route exact path="/Articles" element={<Articles/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
