@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.navbar {
+    background: linear-gradient(#67B196, #67B196 60%, white );
+    font-family: 'Macondo' ;
+    height:auto;
+    border:0;
+    display:flex;
+    justify-content:space-evenly;
+    font-size:2vw;
+}
+
+.logo {
+    background:url('nesflogo.png');
+    background-size:cover;
+    background-position:center;
+    height:auto;
+    width:6.7vw;
+    margin:1vw;
+}
+
+.right {
+    width:85vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.title {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:white;
+    flex-grow:1;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    margin-right:8.7vw;
+    align-items:center;
+}
+
+.links {
+    width:85vw;
+    display:flex;
+    justify-content:flex-end;
+    font-size:1.8vw;
+}
+.links p{
+    margin-right:1.8vw;
+    margin-bottom:1vw;
+}
+
+@media (max-width:600px) {
+    .navbar {
+        font-size:3vw;
+    }
+    .logo {
+        width:10vw;
+        margin-left:2vw;
+    }
+    .links p{
+        font-size:2.2vw;
+        margin-bottom:1vw;
+    }
+}
