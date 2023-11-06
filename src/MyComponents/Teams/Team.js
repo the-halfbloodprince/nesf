@@ -27,6 +27,28 @@ const Team={
             image:""
         }
     ],
+    mediaPublicitySeniorCoordinator: [
+        {
+            name:"Rajdeep Thaosen",
+            image:""
+        },
+        {
+            name:"Reuben Sanname Lyndem",
+            image:""
+        }
+    ],
+    studentsWelfareSeniorCoordinator:[
+        {
+            name:"Moarenla Y Longkumer",
+            image:""
+        }
+    ],
+    eventsSeniorCoordinator:[
+        {
+            name:"Trishna Das",
+            image:""
+        }
+    ],
     governors:[
         {
             name:"Geremsa Muchahary",
@@ -41,7 +63,7 @@ const Team={
             image:""
         }
     ],
-    executiveHeads:[
+    executiveHead:[
         {
             name:"Benjamin Doley",
             image:""
