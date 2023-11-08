@@ -1,6 +1,16 @@
 import React from 'react';
 import{Link} from 'react-router-dom';
 
+
+function Events(){
+
+    const handleClick=()=>{
+        
+    }
+
+    return(
+        <div>
+            <h1>NESF Events Page</h1>
             <Link  to="/">
                 img src="events 1.jpg" alt="North-East Fresher's Party"
             </Link>
@@ -11,9 +21,9 @@ import{Link} from 'react-router-dom';
         </div>
     );
     }
-
     
     
 
 export default Events;
-
+/*
+//creating an event page that gets redirected to another page with articles and stories,like when you tap on the picture it gets redirected to the articles page */
