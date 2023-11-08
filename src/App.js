@@ -1,19 +1,34 @@
-// <<<<<<< chisa/events
-// import React from 'react';
-// import Events from './Mycomponents/Events';
-// import { BrowserRouter as Router,Route,Routes} from 'react-router-dom';
-// import articles from './Mycomponents/articles';
-// /*
-// =======
-// >>>>>>> main
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-// <<<<<<< chisa/events
-//   Link
-// } from 'react-router-dom'
-// */
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  // Link
+} from 'react-router-dom';
+import Navbar from './MyComponents/Navbar/Navbar.js'
+import Alumni from './MyComponents/Alumni/Alumni';
+import Teams from './MyComponents/Teams/Teams';
+import AboutUs from './MyComponents/AboutUs/AboutUs';
+import Events from  './MyComponents/Events/Events';
+import Articles from './MyComponents/Events/Articles.js';
+import Footer from './MyComponents/Footer/Footer.js';
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar/>
+        <Routes>
+          <Route exact path= "/Alumni" element={<Alumni/>}/>
+          <Route exact path="/Teams" element={<Teams/>}/>
+          <Route exact path="AboutUs" element={<AboutUs/>}/>
+          <Route exact path="/Events" element={<Events/>}/>
+          <Route exact path="/Articles" element={<Articles/>}/>
+        </Routes>
+        <Footer/>
+      </div>
+    </Router>
+  );
+}
 
 
 // function App() {
@@ -55,4 +70,4 @@
 //   );
 // }
 
-// export default App;
+export default App;

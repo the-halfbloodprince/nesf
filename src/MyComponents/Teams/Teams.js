@@ -16,7 +16,7 @@ const Teams = () => {
             </div>
             <div className={styles.trenure}>
                 <Trenure/>
-                <Trenure/>
+                {/* <Trenure/> */}
             </div>
                 <President/>
                 <SSCOM/>

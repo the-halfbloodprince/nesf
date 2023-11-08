@@ -1,6 +1,6 @@
 import React from 'react';
 
-function content(){
+function Articles(){
     return(
         <div>
             <h1>NESF Information</h1>
@@ -20,4 +20,4 @@ We hope that they have gained a lot from this session and definitely it will mak
         </div>
     )
 }
-export default articles;
+export default Articles;
