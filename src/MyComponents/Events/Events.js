@@ -11,8 +11,8 @@ function Events(){
     return(
         <div>
             <h1>NESF Events Page</h1>
-            <Link  to="/" img src="events 1.jpg" alt="North-East Fresher's Party">
-                
+            <Link  to="/">
+                img src="events 1.jpg" alt="North-East Fresher's Party"
             </Link>
             <Link to ="/career counselling session">
             img src="events 2.jpg" alt="Career Counselling Session"
