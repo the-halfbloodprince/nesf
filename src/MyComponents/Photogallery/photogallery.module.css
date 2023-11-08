@@ -1,0 +1,28 @@
+/* styles.module.css */
+
+/* Styling for the background */
+.background {
+  background-color: goldenrod; /* Goldenrod background color */
+  height: 100vh; /* 100% viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the white boxes */
+.white-box {
+  background-color: #ffffff; /* White box color */
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the black flowers (adjust the class and styling as needed) */
+.black-flower {
+  color: #000000; /* Black flower color */
+  font-size: 24px;
+  /* Add additional styling for the flower element here */
+}
