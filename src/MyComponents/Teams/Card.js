@@ -1,11 +1,13 @@
 import styles from './Teams.module.css';
 import Circle from './Circle.js';
 
-const card = () => {
+const card = ({name,image}) => {
     return ( 
         <div className={styles.card}>
-            <Circle/>
-            <p>Emily Johnson</p>
+            <Circle
+                image={image}
+            />
+            <p>{name}</p>
         </div>
      );
 }

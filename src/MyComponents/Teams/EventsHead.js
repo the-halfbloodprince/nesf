@@ -1,13 +1,13 @@
 import styles from './Teams.module.css';
+import Team from './Team.js';
 import Card from './Card';
-import Team from './Team.js'
 
-const JEM = () => {
+const EventsHead = () => {
     return ( 
-        <div className={` ${styles.jem} ${styles.portfolio}`}>
-            <h2>JUNIOR EXECUTIVE MEMBERS</h2>
+        <div className={` ${styles.heads} ${styles.portfolio}`}>
+        <h2>EVENTS HEADS</h2>
             <div className={styles.items}>
-                {Team.jem?.map(person=>(
+                {Team.eventsHead?.map(person=>(
                     <Card
                         name={person.name}
                         image={person.image}
@@ -18,4 +18,4 @@ const JEM = () => {
      );
 }
  
-export default JEM;
+export default EventsHead;
