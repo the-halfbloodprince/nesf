@@ -5,6 +5,7 @@
 }
 * p{
     font-size:2vw;
+    font-family:"Macondo";
 }
 
 .intro {
@@ -44,35 +45,6 @@
     margin-right:5vw;
 }
 
-.testimonials {
-    display:flex;
-    justify-content:space-evenly;
-    margin:5vw;
-}
-.card{
-    background-color:#f1e9bb;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    width:70vw;
-    border-radius:2vw;
-}
-.circle {
-    height:15vw;
-    width:15vw;
-    background:grey;
-    background-size:100%;
-    border-radius: 50%;
-    display:flex;
-    flex-direction:column;
-    margin:3vw;
-}
-.text {
-    width:45vw;
-    flex-wrap:wrap;
-    margin:3vw;
-}
-
 
 @media (max-width:600px) {
     * p{
@@ -89,17 +61,5 @@
         margin-top:10vw;
         width:94vw;
         height:67vw;
-    }
-    .card{
-        width:70vw;
-        height:60vw;
-        flex-wrap:wrap;
-    }
-    .circle {
-        height:30vw;
-        width:30vw;
-    }
-    .text {
-        padding:2vw;
     }
 }

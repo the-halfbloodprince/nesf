@@ -1,7 +1,7 @@
 import styles from './Home.module.css';
 import Hexagon from './Hexagon.js';
 import States from './States.js';
-import Card from './Card.js';
+import Slider from './Slider/Slider.js'
 
 const Home = () => {
     return ( 
@@ -14,8 +14,8 @@ const Home = () => {
                     <States/>
                 </div>
             </div>
-            <div className={styles.testimonials}>
-                <Card/>
+            <div className={styles.slider}>
+                <Slider/>
             </div>
         </div>
      );

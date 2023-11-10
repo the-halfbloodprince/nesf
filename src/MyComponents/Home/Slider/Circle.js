@@ -1,4 +1,4 @@
-import styles from './Home.module.css';
+import styles from './Slider.module.css';
 const Circle = () => {
     return ( 
         <div className={styles.circle}></div>
