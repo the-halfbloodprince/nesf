@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*.slider {
+    font-family:"Macondo";
+}
+*.slider p{
+    font-size:2vw;
+    font-family:"Macondo";
+}
+.slider {
+    display:flex;
+    justify-content:space-evenly;
+    margin:2vw;
+    align-items:center;
+    margin-top:10vw;
+    margin-bottom:10vw;
+}
+.card{
+    background-color:#f1e9bb;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:70vw;
+    border-radius:2vw;
+}
+.circle {
+    height:15vw;
+    width:15vw;
+    background:grey;
+    background-size:100%;
+    border-radius: 50%;
+    display:flex;
+    flex-direction:column;
+    margin:3vw;
+}
+.text {
+    width:45vw;
+    flex-wrap:wrap;
+    margin:3vw;
+}
+.leftButton {
+    background:url('left.png');
+}
+.rightButton {
+    background:url('right.png');
+}
+.button {
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:8vw;
+    width:10vw;
+}
+.button h1 {
+    font-family:Manrope;
+    font-size:10vw;
+}
+
+@media (max-width:600px) {
+    *.slider p{
+        font-size:3vw;
+    }
+    .card{
+        width:65vw;
+        height:60vw;
+        flex-wrap:wrap;
+    }
+    .circle {
+        height:30vw;
+        width:30vw;
+    }
+    .text {
+        padding-bottom:3vw;
+    }
+    .button {
+        width:5vw;
+        height:auto;
+    }
+}

@@ -5,6 +5,7 @@ import {
   // Link
 } from 'react-router-dom';
 import Navbar from './MyComponents/Navbar/Navbar.js'
+import Home from './MyComponents/Home/Home.js'
 import Alumni from './MyComponents/Alumni/Alumni';
 import Teams from './MyComponents/Teams/Teams';
 import AboutUs from './MyComponents/AboutUs/AboutUs';
@@ -18,6 +19,7 @@ function App() {
       <div className="App">
         <Navbar/>
         <Routes>
+          <Route exact path= "/Home" element={<Home/>}/>
           <Route exact path= "/Alumni" element={<Alumni/>}/>
           <Route exact path="/Teams" element={<Teams/>}/>
           <Route exact path="AboutUs" element={<AboutUs/>}/>
