@@ -5,7 +5,7 @@ function content() {
   return (
     <div>
       <h1>NORTH-EAST FESTIVAL</h1>
-      //Event 1 details
+      {/* Event 1 details */}
       <p>
         Hola KGPians! We are really happy to announce that the most awaited
         North-East Festival 2023 is just a few days away. North-East Festival,

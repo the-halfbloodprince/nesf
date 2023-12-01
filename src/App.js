@@ -3,35 +3,35 @@ import {
   Routes,
   Route,
   // Link
-} from 'react-router-dom';
-import Navbar from './MyComponents/Navbar/Navbar.js'
-import Home from './MyComponents/Home/Home.js'
-import Alumni from './MyComponents/Alumni/Alumni';
-import Teams from './MyComponents/Teams/Teams';
-import AboutUs from './MyComponents/AboutUs/AboutUs';
-import Events from  './MyComponents/Events/Events';
-import Articles from './MyComponents/Events/articles.js';
-import Footer from './MyComponents/Footer/Footer.js';
+} from "react-router-dom";
+import Navbar from "./MyComponents/Navbar/Navbar.js";
+import Home from "./MyComponents/Home/Home.js";
+import Alumni from "./MyComponents/Alumni/Alumni";
+import Teams from "./MyComponents/Teams/Teams";
+import AboutUs from "./MyComponents/AboutUs/AboutUs";
+import Events from "./MyComponents/Events/Events";
+import Articles from "./MyComponents/Events/articles.js";
+import Footer from "./MyComponents/Footer/Footer.js";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route exact path= "/Home" element={<Home/>}/>
-          <Route exact path= "/Alumni" element={<Alumni/>}/>
-          <Route exact path="/Teams" element={<Teams/>}/>
-          <Route exact path="AboutUs" element={<AboutUs/>}/>
-          <Route exact path="/Events" element={<Events/>}/>
-          <Route exact path="/Articles" element={<Articles/>}/>
+          <Route exact path="/Home" element={<Home />} />
+          <Route exact path="/Alumni" element={<Alumni />} />
+          <Route exact path="/Teams" element={<Teams />} />
+          <Route exact path="AboutUs" element={<AboutUs />} />
+          <Route exact path="/Events" element={<Events />} />
+          <Route exact path="/Articles" element={<Articles />} />
+          <Route path="*" element={<Home />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );
 }
-
 
 // function App() {
 //   return (
