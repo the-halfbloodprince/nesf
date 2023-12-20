@@ -9,8 +9,10 @@ import Home from "./MyComponents/Home/Home.js";
 import Alumni from "./MyComponents/Alumni/Alumni";
 import Teams from "./MyComponents/Teams/Teams";
 import AboutUs from "./MyComponents/AboutUs/AboutUs";
-import Events from "./MyComponents/Events/Events";
-import Articles from "./MyComponents/Events/articles.js";
+import Events from "./MyComponents/Event/Events.js";
+import NEFest from "./MyComponents/Event/NEFest/NEFest.js";
+import CareerCounselling from "./MyComponents/Event/CareerCounselling/CareerCounselling.js";
+// import Articles from "./MyComponents/Event/articles.js";
 import Footer from "./MyComponents/Footer/Footer.js";
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
           <Route exact path="/Teams" element={<Teams />} />
           <Route exact path="AboutUs" element={<AboutUs />} />
           <Route exact path="/Events" element={<Events />} />
-          <Route exact path="/Articles" element={<Articles />} />
+          <Route exact path="/Events/NorthEastFest" element={<NEFest />} />
+          <Route exact path="/Events/CareerCounselling" element={<CareerCounselling />} />
+          {/* <Route exact path="/Articles" element={<Articles />} /> */}
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
