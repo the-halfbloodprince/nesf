@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
 import Hexagon from './Hexagon.js';
-import States from './States.js';
+import Map from './Map.js';
 import Slider from './Slider/Slider.js'
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
                     <Hexagon/>
                 </div>
                 <div className={styles.states}>
-                    <States/>
+                    <Map/>
                 </div>
             </div>
             <div className={styles.slider}>

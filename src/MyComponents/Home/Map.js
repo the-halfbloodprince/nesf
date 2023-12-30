@@ -1,8 +1,8 @@
 import styles from './Home.module.css';
-const States = () => {
+const Map = () => {
     return ( 
         <div className={styles.map}></div>
      );
 }
  
-export default States;
+export default Map;
