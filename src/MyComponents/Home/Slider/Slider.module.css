@@ -11,10 +11,10 @@
 .slider {
     display:flex;
     justify-content:space-evenly;
-    margin:2vw;
+    padding:2vw;
     align-items:center;
-    margin-top:10vw;
-    margin-bottom:10vw;
+    padding-top:10vw;
+    padding-bottom:10vw;
 }
 .card{
     background-color:#f1e9bb;
