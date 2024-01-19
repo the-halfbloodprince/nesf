@@ -60,6 +60,11 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
+            <Link className={styles.link} to="/WspGallery">
+              <p>PhotoGallery</p>
+            </Link>
+          </div>
+          <div>
             <Link className={styles.link} to="/Alumni">
               <p>Alumni</p>
             </Link>
