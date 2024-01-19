@@ -35,7 +35,7 @@ const Slider = () => {
   return ( 
     <div className={styles.slider}>
       <div className={`${styles.leftbutton}${styles.button}`}>
-        <button onClick={leftClick}>&lt;</button>
+        <button onClick={leftClick}><img src="./left.png"/></button>
       </div>
       <div className={styles.items}>
                 {currentTestimonial?.map(person=>(
@@ -46,7 +46,7 @@ const Slider = () => {
                 ))}
             </div>
         <div  className={`${styles.rightbutton}${styles.button}`}>
-          <button onClick={rightClick}>&gt;</button>
+          <button onClick={rightClick}><img src="./right.png"/></button>
         </div>
     </div>
    );

@@ -41,12 +41,14 @@
 }
 .leftButton {
     background:url('left.png');
+    background-size:cover;
 }
 .rightButton {
     background:url('right.png');
+    background-size:cover;
 }
 .button {
-    background-size:cover;
+    background-size:2vw 2vw;
     background-position:center;
     background-attachment:fixed;
     background-repeat:no-repeat;
