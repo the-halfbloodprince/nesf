@@ -2,20 +2,40 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  // Link
 } from "react-router-dom";
 import Navbar from "./MyComponents/Navbar/Navbar.js";
 import Home from "./MyComponents/Home/Home.js";
 import Alumni from "./MyComponents/Alumni/Alumni";
 import Teams from "./MyComponents/Teams/Teams";
+import './App.css';
 import AboutUs from "./MyComponents/AboutUs/AboutUs";
 import Events from "./MyComponents/Event/Events.js";
+import WspGallery from "./MyComponents/WspGallery/WspGallery.js";
 import NEFest from "./MyComponents/Event/NEFest/NEFest.js";
 import CareerCounselling from "./MyComponents/Event/CareerCounselling/CareerCounselling.js";
-// import Articles from "./MyComponents/Event/articles.js";
 import Footer from "./MyComponents/Footer/Footer.js";
 
 function App() {
+  const galleryImages=[
+    {
+      img:'./images/events1.jpg'
+    },
+    {
+      img:'./images/events2.jpg'
+    },
+    {
+      img:'./images/events3.jpg'
+    },
+    {
+      img:'./images/events4.jpg'
+    },
+    {
+      img:'./images/events5.jpg'
+    },
+    {
+      img:'./images/events6.jpg'
+    }
+  ]
   return (
     <Router>
       <div className="App">
@@ -26,16 +46,17 @@ function App() {
           <Route exact path="/Teams" element={<Teams />} />
           <Route exact path="AboutUs" element={<AboutUs />} />
           <Route exact path="/Events" element={<Events />} />
+          <Route exact path="/WspGallery" element={<WspGallery galleryImages={galleryImages}/>}/>
           <Route exact path="/Events/NorthEastFest" element={<NEFest />} />
           <Route exact path="/Events/CareerCounselling" element={<CareerCounselling />} />
-          {/* <Route exact path="/Articles" element={<Articles />} /> */}
           <Route path="*" element={<Home />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
 }
+export default App;
 
 // function App() {
 //   return (
@@ -75,5 +96,3 @@ function App() {
 // >>>>>>> main
 //   );
 // }
-
-export default App;
