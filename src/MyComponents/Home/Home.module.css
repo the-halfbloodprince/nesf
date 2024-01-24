@@ -58,10 +58,29 @@
     height: 100%;
 }
 
+@media(max-width:1200px){
+    .home{
+        height:100vh;
+    }
+    .intro{
+        padding-top:10vw;
+    }
+    .hexagon{
+        width:45vw;
+        height:39vw;
+    }
+    .map{
+        padding-top:10vw;
+        width:45vw;
+        height:39vw;
+    }
+}
 
-
-@media (max-width:600px) {
-    * p{
+@media (max-width:500px) {
+    .home{
+        height:auto;
+    }
+    .hexagon p{
         font-size:3vw;
     }
     .intro{
