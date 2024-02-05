@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+.farewell{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+    height: auto;
+    border: 5vw;
+    background: linear-gradient(to left, #AADFD9,#97CFC6,#97D1C7,#89C1B8,#629993,#376A60);
+}
+
+.farewell p{
+    font-family:"Katibeh";
+    font-size:2vw;
+}
+
+.farewell h2{
+    font-family: "Irish Grover";
+    font-size:3vw;
+}
+
+.title{
+    display:flex;
+    justify-content:flex-start;
+    height:7vw;
+    width:100vw;
+}
+.title h2{
+    width:80vw;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-right:10vw;
+    margin-left:0;
+    padding-top:2vw;
+    padding-bottom:2vw;
+}
+
+.back {
+    height:3vw;
+    width:6vw;
+    background:#D7DEC6;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-radius:1vw;
+    box-shadow:2px 2px 5px black;
+    margin:2vw;
+}
+.back p{
+    font-family:"Itim";
+    color:#764747;
+}
+
+.body{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:35vw;
+    width:100vw;
+    padding-top:3vw;
+    padding-bottom:5vw;
+}
+
+.image {
+    height:32vw;
+    width:50vw;
+    background-image: url('Farewell.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.description {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height:25vw;
+    width: 35vw;
+    flex-wrap:wrap;
+}
+
+@media (max-width:1200px){
+    .farewell{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        height:auto;
+    }
+    .title h2{
+        padding-top:4vw;
+        padding-bottom:0;
+    }
+    .body{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        height:auto;
+    }
+    .image{
+        margin:4vw;
+        height:60vw;
+        width:85vw;
+        margin-top:10vw;
+    }
+    .description{
+        margin-top:10vw;
+        height:auto;
+        width:100vw;
+    }
+    .description p{
+        width:100vw;
+        font-size:3vw;
+        padding:10vw;
+        margin-bottom:15vw;
+    }
+}
+
+@media (max-width:600px) {
+
+    .farewell h2{
+        font-size:6vw;
+        margin-top:0;
+        padding-top:0;
+    }
+
+    .farewell p{
+        font-size:4vw;
+    }
+    .farewell{
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+
+    .title{
+        height:10vh;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:flex-end;
+        margin-bottom:10vw;
+    }
+    .title h2{
+        padding-bottom:0;
+        margin-bottom:0;
+        width:60vw;
+        margin-right:20vw;
+        text-align:center;
+    }
+    .back p{
+        font-size:2.5vw;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        margin:0;
+    }
+    .back{
+        width:8vw;
+        height:1.5vh;
+        align-items:center;
+        margin-bottom:7vh;
+        margin-left:3vw;
+        margin-right:9vw;
+    }
+
+    .image {
+        background-size:contain;
+        height:60vw;
+        width:88vw;
+        padding:0;
+    }
+
+    .description {
+        width:95vw;
+        margin-bottom:50vw;
+    }
+    .description p{
+        padding:5vw;
+    }
+}

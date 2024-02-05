@@ -12,7 +12,13 @@ import AboutUs from "./MyComponents/AboutUs/AboutUs";
 import Events from "./MyComponents/Event/Events.js";
 import WspGallery from "./MyComponents/WspGallery/WspGallery.js";
 import NEFest from "./MyComponents/Event/NEFest/NEFest.js";
+import Freshers from "./MyComponents/Event/Freshers/Freshers.js";
+import Farewell from "./MyComponents/Event/Farewell/Farewell.js";
+import FoodStall from "./MyComponents/Event/FoodStall/FoodStall.js";
+import FoundationDay from "./MyComponents/Event/FoundationDay/FoundationDay.js";
 import CareerCounselling from "./MyComponents/Event/CareerCounselling/CareerCounselling.js";
+import CareerCounsellingWorkshop from "./MyComponents/Event/CareerCounsellingWorkshop/CareerCounsellingWorkshop.js";
+
 import Footer from "./MyComponents/Footer/Footer.js";
 
 function App() {
@@ -49,6 +55,11 @@ function App() {
           <Route exact path="/WspGallery" element={<WspGallery galleryImages={galleryImages}/>}/>
           <Route exact path="/Events/NorthEastFest" element={<NEFest />} />
           <Route exact path="/Events/CareerCounselling" element={<CareerCounselling />} />
+          <Route exact path="/Events/CareerCounsellingWorkshop" element={<CareerCounsellingWorkshop />} />
+          <Route exact path="/Events/Freshers" element={<Freshers/>} />
+          <Route exact path="/Events/Farewell" element={<Farewell/>} />
+          <Route exact path="/Events/FoodStall" element={<FoodStall/>} />
+          <Route exact path="/Events/FoundationDay" element={<FoundationDay/>} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer/>

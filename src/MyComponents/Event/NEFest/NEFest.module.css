@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
 .nefest{
     display:flex;
@@ -13,7 +14,7 @@
 }
 
 .nefest p{
-    font-family:"Irish Grover";
+    font-family:"Katibeh";
     font-size:2vw;
 }
 
@@ -49,10 +50,15 @@
     border-radius:1vw;
     box-shadow:2px 2px 5px black;
     margin:2vw;
+    text-decoration:none;
 }
 .back p{
     font-family:"Itim";
     color:#764747;
+    text-decoration: none;
+}
+.link{
+    text-decoration:none;
 }
 
 .body{
@@ -66,12 +72,11 @@
 }
 
 .image {
-    height:32vw;
-    width:28vw;
-    background-color: #698545;
-    /* background-image: url('fests.png'); */
+    height:25vw;
+    width:40vw;
+    background-image: url('fest.jpg');
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position:center;
     display:flex;
     justify-content:space-evenly;
@@ -169,14 +174,16 @@
     }
 
     .image {
-        height:80vw;
-        width:60vw;
+        height:84vw;
+        width:88vw;
         padding:0;
+        margin-top:10vw;
     }
 
     .description {
+        margin-top:15vw;
         width:95vw;
-        margin-bottom:10vw;
+        margin-bottom:30vw;
     }
     .description p{
         padding:5vw;
