@@ -15,7 +15,7 @@ function content() {
         filled with the mellifluous sound of the Bamboos. Come Get a refined
         taste of the food made from the astonishing recipe of nature. Observe
         the culture filled attires and feel the story that the embroidered
-        design is telling us. Let’s Celebrate the festival of culture, the
+        design is telling us. Let's Celebrate the festival of culture, the
         festival of tradition and Ethnicity. Come Let's Celebrate The North-East
         Festival 2023 on 25th of March 2023 at The Kazi Nazrul Community Centre.
       </p>
