@@ -11,10 +11,10 @@
 .slider {
     display:flex;
     justify-content:space-evenly;
-    margin:2vw;
+    padding:2vw;
     align-items:center;
-    margin-top:10vw;
-    margin-bottom:10vw;
+    padding-top:10vw;
+    padding-bottom:10vw;
 }
 .card{
     background-color:#f1e9bb;
@@ -41,12 +41,18 @@
 }
 .leftButton {
     background:url('left.png');
+    background-size:cover;
+    width:2vw;
+    height:2vw;
 }
 .rightButton {
     background:url('right.png');
+    background-size:cover;
+    width:2vw;
+    height:2vw;
 }
 .button {
-    background-size:cover;
+    background-size:2vw 2vw;
     background-position:center;
     background-attachment:fixed;
     background-repeat:no-repeat;
@@ -61,12 +67,40 @@
     font-size:10vw;
 }
 
-@media (max-width:600px) {
+@media (max-width:1200px){
+    *.slider p{
+        font-size:2.5vw;
+    }
+    .card{
+        width:75vw;
+        height:50vw;
+        flex-wrap:wrap;
+        border-radius:5vw;
+    }
+    .circle {
+        height:28vw;
+        width:28vw;
+    }
+    .text {
+        padding-bottom:3vw;
+    }
+    .rightbutton {
+        width:3vw;
+        height:auto;
+    }
+    .leftbutton {
+        width: 3vw;
+        height: auto;
+    }
+}
+
+@media (max-width:500px) {
     *.slider p{
         font-size:3vw;
     }
     .card{
-        width:65vw;
+        border-radius:5vw;
+        width:75vw;
         height:60vw;
         flex-wrap:wrap;
     }
@@ -77,8 +111,12 @@
     .text {
         padding-bottom:3vw;
     }
-    .button {
-        width:5vw;
+    .rightbutton {
+        width:3vw;
         height:auto;
+    }
+    .leftbutton {
+        width: 3vw;
+        height: auto;
     }
 }

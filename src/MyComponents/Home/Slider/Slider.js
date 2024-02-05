@@ -2,6 +2,8 @@ import Card from './Card.js';
 import styles from './Slider.module.css';
 import Testimonial from './Testimonial.js'
 import {useState} from 'react';
+import right from "./right.png"
+import left from "./left.png"
 
 const Slider = () => {
 
@@ -34,9 +36,7 @@ const Slider = () => {
 
   return ( 
     <div className={styles.slider}>
-      <div className={`${styles.leftbutton}${styles.button}`}>
-        <button onClick={leftClick}>&lt;</button>
-      </div>
+        <div onClick={leftClick}><img src= {left} className = {styles.leftbutton}/></div>
       <div className={styles.items}>
                 {currentTestimonial?.map(person=>(
                     <Card
@@ -45,9 +45,7 @@ const Slider = () => {
                     />
                 ))}
             </div>
-        <div  className={`${styles.rightbutton}${styles.button}`}>
-          <button onClick={rightClick}>&gt;</button>
-        </div>
+          <div onClick={rightClick}><img src={right} className = {styles.rightbutton} /></div>
     </div>
    );
 }

@@ -105,7 +105,7 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
     .events{
         height:95vh;
     }
@@ -140,10 +140,11 @@
         height:60vw;
         width:60vw;
         border-radius:30vw;
-        margin-bottom:10vw;
+        margin-bottom:8vw;
+        margin-top:0;
     }
     .careercounselling h2{
-        margin-bottom:3vw;
+        margin-bottom:2vw;
         width:65vw;
         text-align:center;
     }
