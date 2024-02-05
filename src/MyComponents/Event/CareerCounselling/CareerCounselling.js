@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./CareerCounselling.module.css";
 import Image from "./Image.js";
 import Description from "./Description.js";
@@ -7,7 +8,9 @@ const CareerCounselling = () => {
     return ( 
         <div className={styles.CareerCounselling}>
             <div className={styles.title}>
-                <Back/>
+                <Link classname={styles.link} to="/Events">
+                    <Back/>
+                </Link>
                 <h2>Career Counselling Workshop</h2>
             </div>
         <div className={styles.body}>

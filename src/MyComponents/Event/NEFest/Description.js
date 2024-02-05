@@ -4,7 +4,7 @@ const Description = () => {
     return ( 
     <div className={styles.description}>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        organized by north-east students, a diverse range of events unfolds, showcasing music, dance, and a culinary exploration of the North East. Experience the unique traditions and customs of the Northeast region. The festival includes cultural performances, food stalls, a Clothing Exhibition, and more, promising a rich and immersive experience.</p>
     </div>
      );
 }
