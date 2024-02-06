@@ -7,7 +7,7 @@
     display:flex;
     justify-content:space-evenly;
     font-size:2vw;
-    height:7vw;
+    height:7.3vw;
 }
 
 .logo {
@@ -59,11 +59,16 @@
     display:inline-block;
     margin-bottom:0.3vw;
 }
-.links p:hover {
+.links :hover p{
     color:#9938ba;
-    font-size:1.5vw;
-    transform: translateY(-2%);
+    /* font-size:1.5vw; */
+    transform: translateY(-5%);
 }
+.links :hover{
+    background:  #ccffcc;
+    border-radius:12px;
+}
+
 .links::before{
     content:"";
     display:inline-block;
@@ -74,6 +79,7 @@
     display:flex;
     justify-content:center;
     font-size:1.8vw;
+    margin-bottom:5px;
 }
 
 @media(max-width:1200px){
