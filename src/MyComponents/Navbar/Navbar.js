@@ -60,11 +60,6 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/WspGallery">
-              <p>PhotoGallery</p>
-            </Link>
-          </div>
-          <div>
             <Link className={styles.link} to="/Alumni">
               <p>Alumni</p>
             </Link>
@@ -75,9 +70,6 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/ContactUs">
-              <p>Contact Us</p>
-            </Link>
           </div>
         </div>
       </div>

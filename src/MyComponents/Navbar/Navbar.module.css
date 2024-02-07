@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 .navbar {
-    background: linear-gradient(#67B196, #67B196 60%, white );
+    background: linear-gradient(#67B196,#67B196 ,#8dbbab 60%, white );
     font-family: 'Macondo' ;
-    height:auto;
     border:0;
     display:flex;
     justify-content:space-evenly;
     font-size:2vw;
+    height:7.3vw;
 }
 
 .logo {
@@ -15,8 +15,10 @@
     background-size:cover;
     background-position:center;
     height:auto;
-    width:6.7vw;
+    width:6.2vw;
     margin:1vw;
+    margin-right:2.9vw;
+    margin-left:2.9vw;
 }
 
 .right {
@@ -24,6 +26,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
+    margin-right:2.9vw;
 }
 
 .title {
@@ -32,28 +35,60 @@
     justify-content:center;
     color:white;
     flex-grow:1;
-    margin-top:1vw;
-    margin-bottom:1vw;
+    margin-top:0.4vw;
+    margin-bottom:0.3vw;
     margin-right:8.7vw;
     align-items:center;
+    height:7vw;
 }
-
-.links {
-    width:85vw;
-    display:flex;
-    justify-content:flex-end;
-    font-size:1.8vw;
+.title h2{
+    font-size:1.9vw;
 }
-.links p{
-    margin-right:1.8vw;
-    margin-bottom:1vw;
+.title p{
+    font-size:1.6vw;
 }
 .link{
     text-decoration: none;
     color: black;
+    margin-right:1vw;
+    margin-left:1vw;
+}
+.links p{
+    font-size:1.2vw;
+    transition: font-size 0.3s ease-in-out;
+    display:inline-block;
+    margin-bottom:0.3vw;
+}
+.links :hover p{
+    color:#9938ba;
+    /* font-size:1.5vw; */
+    transform: translateY(-5%);
+}
+.links :hover{
+    background:  #ccffcc;
+    border-radius:12px;
 }
 
-@media (max-width:600px) {
+.links::before{
+    content:"";
+    display:inline-block;
+    width:51vw;
+}
+.links {
+    width:85vw;
+    display:flex;
+    justify-content:center;
+    font-size:1.8vw;
+    margin-bottom:5px;
+}
+
+@media(max-width:1200px){
+    .navbar{
+        height:10vw;
+    }
+}
+
+@media (max-width:600px){
     .navbar {
         font-size:3vw;
     }
