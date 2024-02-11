@@ -7,7 +7,7 @@
     width:100vw;
     height:56vw;
     font-size:2vw;
-    background:url('footerbg.png') no-repeat;
+    background:url('footerbg.png');
     background-size:contain;
     background-position:center;
     flex-wrap:wrap;
