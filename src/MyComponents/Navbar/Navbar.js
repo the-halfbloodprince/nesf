@@ -28,8 +28,13 @@
 import { Link } from "react-router-dom";
 
 import styles from "./Navbar.module.css";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { useState } from 'react';
 
 const Navbar = () => {
+
+  const [showMenuItems,setShowMenuItems]=useState(false);
+
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}></div>
@@ -59,18 +64,29 @@ const Navbar = () => {
               <p>Events</p>
             </Link>
           </div>
-          <div>
+          {/* <div>
             <Link className={styles.link} to="/Alumni">
               <p>Alumni</p>
             </Link>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <Link className={styles.link} to="/Articles">
               <p>Articles</p>
             </Link>
-          </div>
+          </div> */}
           <div>
           </div>
+        </div>
+        <div className={styles.hamburgerMenu}>
+          <a href="#" onClick={()=>setShowMenuItems(!showMenuItems)}>
+            <GiHamburgerMenu/>
+          </a>
+        </div>
+        <div className={showMenuItems?styles.mobileMenuShow:styles.mobileMenuHidden}>
+          <Link className={styles.mobilelinks} to="/">Home</Link>
+          <Link className={styles.mobilelinks} to="/AboutUs">About Us</Link>
+          <Link className={styles.mobilelinks} to="/Teams">Team</Link>
+          <Link className={styles.mobilelinks} to="/Events">Events</Link>
         </div>
       </div>
     </div>

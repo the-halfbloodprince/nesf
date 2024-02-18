@@ -94,6 +94,12 @@
     }
 }
 
+@media (max-width:1200px) and (min-width:527px){
+    .card{
+        visibility: hidden;
+    }
+}
+
 @media (max-width:500px) {
     *.slider p{
         font-size:3vw;

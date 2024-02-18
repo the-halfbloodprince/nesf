@@ -10,6 +10,11 @@
     height:7.3vw;
 }
 
+.hamburgerMenu{
+    display:none;
+    justify-self: right;
+}
+
 .logo {
     background:url('nesflogo.png');
     background-size:cover;
@@ -82,9 +87,41 @@
     margin-bottom:5px;
 }
 
+.mobileMenuShow{
+    display:none;
+}
+
+.mobileMenuHidden{
+    display:none;
+}
+
 @media(max-width:1200px){
     .navbar{
         height:10vw;
+    }
+    .links{
+        display:none;
+    }
+    .hamburgerMenu{
+        display:block;
+        justify-self: right;
+        margin-left:95%;
+    }
+    .mobileMenuShow{
+        display:flex;
+        flex-direction: column;
+        background-color: #97c8b6;
+        margin-top:2%;
+        width:1500vw;
+        z-index: 5;
+        /* display:none; */
+    }
+    .mobileMenuHidden{
+        display:none;
+    }
+    .mobilelinks{
+        color:white;
+        text-decoration: none;
     }
 }
 
