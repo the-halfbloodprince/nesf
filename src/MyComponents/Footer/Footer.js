@@ -13,8 +13,8 @@ const Footer = () => {
             </div>
             <div className={styles.contacts}>
                 <h2>Contact Us</h2>
-                <p>+91-9994444333</p>
-                <p>nesc.iitkgp@gmail.com</p>
+                <p>+91-6002407523</p>
+                <p>nesciitkgp@gmail.com</p>
             </div>
         </div>
      );

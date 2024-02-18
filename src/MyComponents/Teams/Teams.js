@@ -25,10 +25,10 @@ const Teams = () => {
             </div>
                 <President/>
                 <SSCOM/>
+                <Governors/>
                 <MediaPublicitySeniorCoordinator/>
                 <StudentsWelfareSeniorCoordinator/>
                 <EventsSeniorCoordinator/>
-                <Governors/>
                 <ExecutiveHeads/>
                 <MediaPublicityHead/>
                 <FinanceHead/>
