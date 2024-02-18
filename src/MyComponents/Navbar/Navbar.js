@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className={styles.logo}></div>
       <div className={styles.right}>
         <div className={styles.title}>
-          <h2>NORTH EAST STUDENTS' FORUM</h2>
+          <h2>NORTH-EAST STUDENTS' FORUM</h2>
           <p>Indian Institute of Technology Kharagpur</p>
         </div>
         <div className={styles.links}>
