@@ -83,10 +83,10 @@ const Navbar = () => {
           </a>
         </div>
         <div className={showMenuItems?styles.mobileMenuShow:styles.mobileMenuHidden}>
-          <Link className={styles.mobilelinks} to="/">Home</Link>
-          <Link className={styles.mobilelinks} to="/AboutUs">About Us</Link>
-          <Link className={styles.mobilelinks} to="/Teams">Team</Link>
-          <Link className={styles.mobilelinks} to="/Events">Events</Link>
+          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/">Home</Link>
+          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/AboutUs">About Us</Link>
+          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Teams">Team</Link>
+          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Events">Events</Link>
         </div>
       </div>
     </div>

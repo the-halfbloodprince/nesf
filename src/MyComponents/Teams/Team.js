@@ -2,39 +2,39 @@ const Team={
     president:[
         {
             name:"Thokchom Preety Devi",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1dSAI17S9HixT3JfeQvBL4hUz3kpnWnKx"
         }
     ],
     sscom:[
         {
             name:"Ater Murtem",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1XoS3xDl0iwHHC7l2c9M8As12U9lnnSXn"
         },
         {
             name:"Deepraj Brahma",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1S5FWlQX9oyHlVZiSq2wvn1tx_r4B0xHE"
         },
         {
             name:"Tasso Yaka",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1S6HU08rOM4bJtHuRuhwrtTpD_ZVNt2iS"
         },
         {
             name:"Manish Kumar Das",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=13JwfLDXgkEzSofbcANSHrjZXsszrwK1A"
         },
         {
             name:"Phwilao Hazoary",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1eGVzwQoNIq6W9j1roT-duICtvSYEGKFL"
         }
     ],
     mediaPublicitySeniorCoordinator: [
         {
             name:"Rajdeep Thaosen",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1EWPBc6ATdjSabHG_AOo8NPSO855CkB8S"
         },
         {
             name:"Reuben Sanname Lyndem",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1I9RM_rXA0XjMNkAJ9iJVJ1FW3jCVAFCv"
         }
     ],
     studentsWelfareSeniorCoordinator:[
@@ -46,101 +46,101 @@ const Team={
     eventsSeniorCoordinator:[
         {
             name:"Trishna Das",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1z-tL-DY4Bkrtf7XODkbOGwAWF2wAaWO3"
         }
     ],
     governors:[
         {
             name:"Geremsa Muchahary",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1N7cPbnvUQhKADzIx-UI5vqvqJbCmAXzf"
         },
         {
             name:"Jir Et Katharpi",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1X3JGo2u3KLhoT0rrhCFcqkxjoE_sEq9M"
         },
         {
             name:"Arnab Kumar Borah",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1twd7J63_XOloUvvwEvNjOZInC2qSGTDW"
         }
     ],
     executiveHead:[
         {
             name:"Benjamin Doley",
-            image:""
+            image:"https://media.licdn.com/dms/image/C4D03AQGAj_3HzX12Xg/profile-displayphoto-shrink_800_800/0/1650865328643?e=1708560000&v=beta&t=NPYaw8CDnPayMO6BrtV1Toi3MzFo9mjSPEvqqtbploo"
         },
         {
             name:"Bijoy Timung",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1Dr__tz0dBO5PRnScY3xOqQHfNc2OnRTk"
         }
     ],
     mediaPublicityHead:[
         {
             name:"Mingma Rinzing Lepcha",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1hIEBetFeVfUIou4vYlbe4OEF9IAwS8uH"
         },
         {
             name:"Vedic Dutta",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1Lf1P9ElDbjmTa8kyI9IKmolZKTMfHKY6"
         }
     ],
     financeHead:[
         {
             name:"Techi Tina Tara",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1h0pdj6KCg_Vdm6cZOw_5uKfZ77dKFVyC"
         },
         {
             name:"Tosanhame Jyrwa",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1sAL-zCqJoIPMtCztLP7HIOrJDGTMjMiz"
         }
     ],
     studentsWelfareHead:[
         {
             name:"Geying Ratan",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1MNyy7FXy-o28kSrfAYzU7LMmQQB6eAJN"
         },
         {
             name:"Deepraj Das",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1fTbjsdPgOBanf1fZ7q0rj5OiAze0auGc"
         },
         {
-            name:"Tohuto sema",
-            image:""
+            name:"Tohuto Sema",
+            image:"https://drive.google.com/uc?export=view?&id=1RAGbR4THFMAUhT2oLfRP8lf24JM2EUXq"
         }
     ],
     eventsHead:[
         {
             name:"Roshan Hali",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1cC3wVI9HSOsSzcOQTLPnLt2n0yNRQcxF"
         },
         {
             name:"Gedum Lego",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1QQcTdvClnUzboJSPh6umRUdBNXfw5uW7"
         },
         {
             name:"Rajendra Daimary",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1yJKF97-YtNzClwPkP7yAj3HvNfAjivbi"
         },
         {
             name:"Johan Doley",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1XFm5GNWWT7uwH6iLkMgIbL0wO3b5JFWO"
         }
     ],
     sem:[
         {
             name:"Pratiksha Boro",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=16wmy0IG29HJ8wV65TVJW72dQWkEo_cuM"
         },
         {
             name:"Penuel Daimari",
-            image:""
+            image:"https://media.licdn.com/dms/image/D5603AQHX5Oo8HYVl-w/profile-displayphoto-shrink_800_800/0/1668248314742?e=1708560000&v=beta&t=mFnJSZPbOvUPfkx5T7RnPrHXxqFfQ-EgvZi6k89smpg"
         },
         {
             name:"Chisanamba G Momin",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1CwZhRZdJChfJouhDQZm-vcMo16RukT0_"
         },
         {
             name:"Biswajit Das",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1tB3jQvWzynqhRCNRaCHlwygL-XtBF7q4"
         },
         {
             name:"Abinash Doley",
@@ -148,51 +148,51 @@ const Team={
         },
         {
             name:"Kamma Donah",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1ruT5LK7dLBkAuPQoOkF2DjuWEYaXsN96"
         },
         {
             name:"Harshadeep Mili",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1EqIpopsTZlKC4QcWWx3EGeGxvhJpRlUq"
         },
         {
             name:"Ritobroto Kalita",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1yjbamIUkiGnEt1MFqXS_nbhOeus1mpiY"
         },
         {
             name:"Gracy Debbarma",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1Fmugs1BPFq9Li7xWdjaVywtquViFESYG"
         },
         {
             name:"Tuhsin Suhana Rahman",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1Kwsy7xYx9K7472GVxKQOs_5tOnsWIOZO"
         },
         {
             name:"Pakde Pumbu",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1SFOPkLRY-M13g5C59PimFHYgwpsraPsq"
         },
         {
             name:"Shrewa Shree Konika P Bharti ",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1pEDh8t6aGqRzk_On7Xq3exdAHJaCFOYk"
         },
         {
             name:"Karma Jangmu",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1Rj290kIIqbmRtK143ByECwe6Mm9DbS5Y"
         },
         {
             name:"Toko Yani",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1suV9jwR4QHTM-AmT1JL8AzVT-KD__kFs"
         },
         {
             name:"Kamdek Kapnang",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1QeM35iRy7Zy3XqDLtHSyz2-OY6b0ds07"
         },
         {
             name:"Likha Ang",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1k-WPJkqPF0G7eac2JLwPP0UaEBB7-jmo"
         },
         {
             name:"Abhinash Barman",
-            image:""
+            image:"https://drive.google.com/uc?export=view?&id=1fnyQcjHyGaFnOMpS9mGXMmxM7HUjsvbt"
         }
     ],
     jem:[
@@ -210,7 +210,7 @@ const Team={
         },
         {
             name:"Abhinash Jimey",
-            image:""
+            image:"https://drive.google.com/file/d/1hugi0k06yyEgS0VsZ8Nt7rM6xQFTwOjE/view"
         },
         {
             name:"Kaling Tayeng",
