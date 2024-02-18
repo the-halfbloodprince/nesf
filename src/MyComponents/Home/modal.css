@@ -1,0 +1,292 @@
+/* Frame 4 */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+
+
+/* Arunachal 1 */
+
+position: absolute;
+width: 557px;
+height: 358px;
+left: 672px;
+top: -23px;
+
+background: url(Arunachal);
+
+
+/* Manipur 1 */
+
+position: absolute;
+width: 328px;
+height: 241px;
+left: 1531px;
+top: 563px;
+
+background: url(Manipur);
+
+
+/* Nagaland 1 */
+
+position: absolute;
+width: 466px;
+height: 319px;
+left: 1415px;
+top: 105px;
+
+background: url(Nagaland);
+
+
+/* Meghalaya 1 */
+
+position: absolute;
+width: 434px;
+height: 267px;
+left: 49px;
+top: 436px;
+
+background: url(Meghalaya);
+
+
+/* Sikkim 1 */
+
+position: absolute;
+width: 350px;
+height: 247.43px;
+left: 181px;
+top: 49px;
+
+background: url(Sikkim);
+
+
+/* Assam 1 */
+
+position: absolute;
+width: 901px;
+height: 581px;
+left: 531px;
+top: 333px;
+
+background: url(Assam.png);
+
+
+/* Tripura 1 */
+
+position: absolute;
+width: 442.07px;
+height: 315.67px;
+left: 334.99px;
+top: 734px;
+
+background: url(Tripura);
+transform: rotate(1.09deg);
+
+
+/* Mizoram 1 */
+
+position: absolute;
+width: 496px;
+height: 397px;
+left: 1126px;
+top: 658px;
+
+background: url(Mizoram);
+
+
+/* Constitution */
+
+position: absolute;
+visibility: hidden;
+width: 363px;
+height: 47px;
+left: 701px;
+top: 540px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Team */
+
+position: absolute;
+visibility: hidden;
+width: 99px;
+height: 44px;
+left: 481px;
+top: 870px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Alumni */
+
+position: absolute;
+visibility: hidden;
+width: 273px;
+height: 38px;
+left: 119px;
+top: 549px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Sikkim */
+
+position: absolute;
+visibility: hidden;
+width: 93px;
+height: 82px;
+left: 309px;
+top: 141px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Photo Gallery */
+
+position: absolute;
+visibility: hidden;
+width: 245px;
+height: 88px;
+left: 828px;
+top: 117px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Sponsors */
+
+position: absolute;
+visibility: hidden;
+width: 150px;
+height: 60px;
+left: 1594px;
+top: 251px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Events */
+
+position: absolute;
+visibility: hidden;
+width: 102px;
+height: 76px;
+left: 1648px;
+top: 658px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Contact */
+
+position: absolute;
+visibility: hidden;
+width: 124px;
+height: 47px;
+left: 1312px;
+top: 804px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+visibility: hidden;
+width: 123px;
+height: 55px;
+left: 35px;
+top: 22px;
+
+background: linear-gradient(180deg, rgba(255, 232, 112, 0.56) 0%, rgba(255, 232, 112, 0.703125) 29.69%, #FFE870 100%);
+border-radius: 7px;
+
+
+/* Back */
+
+position: absolute;
+visibility: hidden;
+width: 94px;
+height: 37px;
+left: 50px;
+top: 31px;
+
+font-family: 'Macondo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+

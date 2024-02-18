@@ -2,6 +2,7 @@ import styles from "./States.module.css";
 
 const States = () => {
     return ( 
+        <>
         <div className={styles.maps}>
             <div className={styles.sikkim}>
                 <h2>Sikkim</h2>
@@ -28,6 +29,7 @@ const States = () => {
                 <h2>Manipur</h2>
             </div>
         </div>
+        </>
      );
 }
  

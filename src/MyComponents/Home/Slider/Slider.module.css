@@ -8,6 +8,9 @@
     font-size:2vw;
     font-family:"Macondo";
 }
+.name{
+    margin-top:-2vw;
+}
 .slider {
     display:flex;
     justify-content:space-evenly;

@@ -41,6 +41,8 @@ const Slider = () => {
                 {currentTestimonial?.map(person=>(
                     <Card
                         key={person.id}
+                        name={person.name}
+                        image={person.image}
                         testimonial={person.testimonial}
                     />
                 ))}
