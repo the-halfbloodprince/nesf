@@ -1,90 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 .navbar {
-    background: linear-gradient(#67B196,#67B196 ,#8dbbab 60%, white );
+    /* background: linear-gradient(#67B196,#67B196 ,#8dbbab 60%, white ); */
     font-family: 'Macondo' ;
     border:0;
     display:flex;
-    justify-content:space-evenly;
-    font-size:2vw;
-    height:7.3vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    /* height:7.3vw; */
+    padding: 1rem 1rem;
 }
 
 .hamburgerMenu{
     display:none;
     justify-self: right;
+    font-size: 2rem;
+}
+
+.left {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap: 1rem;
+    /* flex-grow: 1; */
+    width: 100%;
 }
 
 .logo {
-    background:url('nesflogo.png');
-    background-size:cover;
+    background: url('nesflogo.png') no-repeat;
+    background-size:contain;
     background-position:center;
-    height:auto;
-    width:6.2vw;
-    margin:1vw;
-    margin-right:2.9vw;
-    margin-left:2.9vw;
+    /* height:auto; */
+    /* width: 100%; */
+    width: 6rem;
+    /* height: 7vw; */
+    /* margin:1vw; */
+    aspect-ratio: 1;
+    /* margin-right:2.9vw;
+    margin-left:2.9vw; */
 }
 
 .right {
-    width:85vw;
+    /* width:85vw; */
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-right:2.9vw;
 }
 
 .title {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    color:white;
-    flex-grow:1;
-    margin-top:0.4vw;
-    margin-bottom:0.3vw;
-    margin-right:8.7vw;
-    align-items:center;
+    align-items:start;
+}
+
+.title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.title p{
+    font-size: 1.5rem;
+}
+
+/* .title {
     height:7vw;
 }
 .title h2{
-    font-size:1.9vw;
 }
 .title p{
     font-size:1.6vw;
-}
+} */
 .link{
     text-decoration: none;
     color: black;
-    margin-right:1vw;
-    margin-left:1vw;
+    padding: .4rem 1rem;
+    width: 100%;
+    text-wrap: nowrap;
 }
 .links p{
-    font-size:1.2vw;
+    font-size: 1.6rem;
+    font-weight: 700;
     transition: font-size 0.3s ease-in-out;
     display:inline-block;
     margin-bottom:0.3vw;
 }
-.links :hover p{
-    color:#9938ba;
-    /* font-size:1.5vw; */
-    transform: translateY(-5%);
-}
-.links :hover{
-    background:  #ccffcc;
+
+.link:hover{
+    background:  var(--primary-color-lighter);
+    color: black;
     border-radius:12px;
 }
 
-.links::before{
+/* .links::before{
     content:"";
     display:inline-block;
     width:51vw;
-}
+} */
 .links {
-    width:85vw;
+    width:100%;
     display:flex;
-    justify-content:center;
-    font-size:1.8vw;
-    margin-bottom:5px;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    font-size: 2rem;
+    /* margin-bottom:5px; */
 }
 
 .mobileMenuShow{
@@ -133,6 +154,11 @@
         width:10vw;
         margin-left:2vw;
     }
+    .links {
+        display: fixed;
+    }
+
+
     .links p{
         font-size:2.2vw;
         margin-bottom:1vw;

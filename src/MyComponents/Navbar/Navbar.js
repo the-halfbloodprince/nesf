@@ -33,16 +33,18 @@ import { useState } from 'react';
 
 const Navbar = () => {
 
-  const [showMenuItems,setShowMenuItems]=useState(false);
+  const [showMenuItems,setShowMenuItems] = useState(false);
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.logo}></div>
-      <div className={styles.right}>
+      <div className={styles.left}>
+        <div className={styles.logo}></div>
         <div className={styles.title}>
           <h2>NORTH-EAST STUDENTS' FORUM</h2>
           <p>Indian Institute of Technology Kharagpur</p>
         </div>
+      </div>
+      <div className={styles.right}>
         <div className={styles.links}>
           <div>
             <Link className={styles.link} to="/Home">
