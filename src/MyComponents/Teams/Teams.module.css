@@ -12,12 +12,13 @@
 }
 
 .title {
-    height:8vw;
-    background: linear-gradient(#67B196, #67B196 60%, white );
+    /* background: linear-gradient(#67B196, #67B196 60%, white ); */
     display:flex;
     justify-content: space-evenly;
     align-items:center;
-    color:white;
+    color: black;
+    font-size: 3rem;
+    padding: 2rem 0;
 }
 
 .trenure {
