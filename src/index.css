@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Protest+Riot&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
+
 :root {
-  --primary-color: #007bff;
+  --primary-blue: #00bbf9;
+  --primary-green: #00f5d4;
+  --primary-light-bg: #90e0ef;
+  --footer-bg: #4361ee;
+  --primary-color: var(--primary-blue);
   --primary-color-lighter: #ecf39e;
   --secondary-color: lime;
+  --link-color-dark: #1b4965;
+  --link-color-light: #fffc;
 
   /* TODO: ADD FONTS AND MORE COLORS */
+  --main-body-font: 'Nunito', sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--main-body-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -26,4 +33,14 @@ code {
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
+  color: #444;
+}
+
+a:hover {
+  color: var(--primary-color);
 }

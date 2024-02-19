@@ -4,17 +4,21 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.links}>
                 <h2>Quick Links</h2>
-                <p>About Us</p>
-                <p>Events</p>
-                <p>Photo Gallery</p>
-                <p>Sponsors</p>
-                <p>Alumni</p>
-                <p>Constitution</p>
+                <div className={styles.linksGroup}>
+                    <a href='/about-us'>About Us</a>
+                    <a href='/events'>Events</a>
+                    <a href='/photo-gallery'>Photo Gallery</a>
+                    <a href='/sponsors'>Sponsors</a>
+                    <a href='/alumni'>Alumni</a>
+                    <a href='/constitution'>Constitution</a>
+                </div>
             </div>
             <div className={styles.contacts}>
                 <h2>Contact Us</h2>
-                <p>+91-6002407523</p>
-                <p>nesciitkgp@gmail.com</p>
+                <div className={styles.linksGroup}>
+                    <tel>+91-6002407523</tel>
+                    <a href='mailto:nesciitkgp@gmail.com'>nesciitkgp@gmail.com</a>
+                </div>
             </div>
         </div>
      );
