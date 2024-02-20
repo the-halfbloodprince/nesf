@@ -78,19 +78,21 @@
     padding: .4rem 1rem;
     width: 100%;
     text-wrap: nowrap;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 12px;
+    transition: all .3s ease;
 }
 .links p{
-    font-size: 1.6rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
     transition: font-size 0.3s ease-in-out;
     display:inline-block;
-    margin-bottom:0.3vw;
+    /* margin-bottom:0.3vw; */
 }
 
 .link:hover{
     background:  var(--primary-color-lighter);
     color: black;
-    border-radius:12px;
 }
 
 /* .links::before{
@@ -102,7 +104,7 @@
     width:100%;
     display:flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     font-size: 2rem;
     /* margin-bottom:5px; */

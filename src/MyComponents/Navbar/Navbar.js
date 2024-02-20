@@ -47,22 +47,22 @@ const Navbar = () => {
       <div className={styles.right}>
         <div className={styles.links}>
           <div>
-            <Link className={styles.link} to="/Home">
+            <Link className={styles.link} to="/home">
               <p>Home</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/AboutUs">
+            <Link className={styles.link} to="/about-us">
               <p>About Us</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/Teams">
+            <Link className={styles.link} to="/teams">
               <p>Team</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/Events">
+            <Link className={styles.link} to="/events">
               <p>Events</p>
             </Link>
           </div>
