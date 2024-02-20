@@ -1,0 +1,19 @@
+.container {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.image_container {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    /* background: yellow; */
+  }
+  
+  .image_container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    /* background: yellow; */
+}

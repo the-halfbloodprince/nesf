@@ -18,7 +18,7 @@ const Teams = () => {
     return ( 
         <div className={styles.teams}>
             <div className={styles.title}>
-                <h2>Tenure 2022-23</h2>
+                <h2>Tenure 22-23</h2>
             </div>
             {/* <div className={styles.trenure}>
                 <Trenure/>
