@@ -84,7 +84,7 @@ const Navbar = () => {
             <GiHamburgerMenu/>
           </a>
         </div>
-        <div className={showMenuItems?styles.mobileMenuShow:styles.mobileMenuHidden}>
+        <div className={`${styles.mobileMenu} ${showMenuItems && styles.opened}`} >
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/">Home</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/AboutUs">About Us</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Teams">Team</Link>
