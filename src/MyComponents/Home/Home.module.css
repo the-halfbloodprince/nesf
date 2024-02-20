@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 .home {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     font-family:"Macondo";
     /* background:url('homebackground.jpeg'); */
     background-size:cover;
@@ -73,7 +73,7 @@
     height: 100%;
 }
 
-@media(max-width:1200px){
+/* @media(max-width:1200px){
     .home{
         height:100vh;
     }
@@ -89,10 +89,10 @@
         width:45vw;
         height:39vw;
     }
-}
+} */
 
 @media (max-width:500px) {
-    .home{
+    /* .home{
         height:auto;
     }
     .hexagon p{
@@ -109,5 +109,5 @@
         padding-top:10vw;
         width:94vw;
         height:67vw;
-    }
+    } */
 }
