@@ -26,6 +26,8 @@ const images = [
 
 const Home = () => {
 
+    const motto = "Spreading new hopes and smiles of sunrise to the nation"
+
     // let slides = [
     //     <img src="https://picsum.photos/800/300/?random" alt="1" />,
     //     <img src="https://picsum.photos/800/301/?random" alt="2" />,
@@ -39,6 +41,14 @@ const Home = () => {
             <div className={styles.intro}>
                 <div className={styles.carousal_container}>
                     <Carousal imagePaths={images} />
+                </div>
+                <div className={styles.intro__content}>
+                    <div className={styles.intro__content__text}>
+                        { motto }
+                    </div>
+                    {/* <div className={styles.intro__content__image}>
+                        <img src="/" alt="" />
+                    </div> */}
                 </div>
                 {/* <div className={styles.moto}>
                     <Hexagon/>
