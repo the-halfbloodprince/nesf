@@ -52,7 +52,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/about-us">
+            <Link className={styles.link} to="/#about-us">
               <p>About Us</p>
             </Link>
           </div>

@@ -3,29 +3,33 @@ import Hexagon from './Hexagon.js';
 import Map from './Map.js';
 import Slider from './Slider/Slider.js'
 import Carousal from '../Carousal.js';
+import AboutUs from './AboutUs.js';
+
+import Spline from '@splinetool/react-spline';
 
 const images = [
     // '/highlights/highlight-1.png',
     '/highlights/highlight-2.jpg',
     '/highlights/highlight-3.jpg',
     '/highlights/highlight-4.jpg',
-    '/highlights/highlight-5.jpg',
+    // '/highlights/highlight-5.jpg',
     '/highlights/highlight-6.jpg',
     '/highlights/highlight-7.jpg',
     '/highlights/highlight-8.jpg',
     '/highlights/highlight-9.jpg',
-    '/highlights/highlight-10.jpg',
-    // '/highlights/highlight-11.jpg',
-    // '/highlights/highlight-12.jpg',
-    // '/highlights/highlight-13.jpg',
-    // '/highlights/highlight-14.jpg',
-    // '/highlights/highlight-15.jpg',
-    // '/highlights/highlight-16.jpg',
-    // '/highlights/highlight-17.jpg',
+    // '/highlights/highlight-10.jpg',
+    '/highlights/highlight-11.jpg',
+    '/highlights/highlight-12.jpg',
+    '/highlights/highlight-13.jpg',
+    '/highlights/highlight-14.jpg',
+    // '/highlights/highlight-15.heic',
+    // '/highlights/highlight-16.png',
+    '/highlights/highlight-17.jpg',
 ];
 
 const Home = () => {
-
+    
+    // const splineScenePath = "https://prod.spline.design/REPDQ5Bd6aNHYsAg/scene.splinecode";
     const motto = "Spreading new hopes and smiles of sunrise to the nation"
 
     // let slides = [
@@ -46,6 +50,9 @@ const Home = () => {
                     <div className={styles.intro__content__text}>
                         { motto }
                     </div>
+                    {/* <div className={styles.splineModel}>
+                        <Spline scene={splineScenePath} />
+                    </div> */}
                     {/* <div className={styles.intro__content__image}>
                         <img src="/" alt="" />
                     </div> */}
@@ -57,6 +64,7 @@ const Home = () => {
                     <Map/>
                 </div> */}
             </div>
+            <AboutUs />
             {/* <div className={styles.slider}>
                 <Slider/>
             </div> */}
