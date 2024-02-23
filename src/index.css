@@ -1,10 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Protest+Riot&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
+
+:root {
+  --primary-blue: #00bbf9;
+  --primary-green: #00f5d4;
+  --primary-light-bg: #90e0ef;
+  --primary-light-bg-60: #90e0ef77;
+  --footer-bg: #4361ee;
+  /* --primary-color: var(--primary-blue); */
+  --primary-color-lighter: #ecf39e;
+  --secondary-color: lime;
+  --link-color-dark: #1b4965;
+  --link-color-light: #fffc;
+
+  /* --yellow-light: #ffecce;
+  --yellow-dark: #f9c679;
+  --red: #c00417;
+  --black: #16100d;
+  --gray: #573c38; */
+
+  --midnight-blue: #272264ff;
+  --purpureus: #9653A2ff;
+  --fire-brick: #B83030ff;
+  --pomp-and-power: #885797ff;
+  --mimi-pink: #EECCDAff;
+
+  --primary-color: var(--midnight-blue);
+
+  /* TODO: ADD FONTS AND MORE COLORS */
+  --main-body-font: 'Niramit', sans-serif;
+  --stylized-body-font-1: 'Macondo', sans-serif;
+  --stylized-body-font-2: 'Protest Riot', sans-serif;
+
+  --border-radius: 25px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0 2rem;
+  font-family: var(--main-body-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+  /* background: var(--midnight-blue); */
+  /* color: var(--mimi-pink); */
+  color: var(--pomp-and-power);
 }
 
 code {
@@ -14,4 +54,20 @@ code {
 
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
+  color: #444;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+*::selection {
+  background-color: var(--midnight-blue);
+  color: var(--mimi-pink);
 }

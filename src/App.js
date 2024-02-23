@@ -47,20 +47,21 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/Home" element={<Home />} />
-          <Route exact path="/Alumni" element={<Alumni />} />
-          <Route exact path="/Teams" element={<Teams />} />
-          <Route exact path="AboutUs" element={<AboutUs />} />
-          <Route exact path="/Events" element={<Events />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/alumni" element={<Alumni />} />
+          <Route exact path="/teams" element={<Teams />} />
+          <Route exact path="/about-us" element={<AboutUs />} />
+          <Route exact path="/events" element={<Events />} />
           <Route exact path="/WspGallery" element={<WspGallery galleryImages={galleryImages}/>}/>
-          <Route exact path="/Events/NorthEastFest" element={<NEFest />} />
-          <Route exact path="/Events/CareerCounselling" element={<CareerCounselling />} />
-          <Route exact path="/Events/CareerCounsellingWorkshop" element={<CareerCounsellingWorkshop />} />
-          <Route exact path="/Events/Freshers" element={<Freshers/>} />
-          <Route exact path="/Events/Farewell" element={<Farewell/>} />
-          <Route exact path="/Events/FoodStall" element={<FoodStall/>} />
-          <Route exact path="/Events/FoundationDay" element={<FoundationDay/>} />
-          <Route path="*" element={<Home />} />
+          <Route exact path="/events/north-east-festival" element={<NEFest />} />
+          <Route exact path="/events/career-counselling" element={<CareerCounselling />} />
+          <Route exact path="/events/career-counselling-workshop" element={<CareerCounsellingWorkshop />} />
+          <Route exact path="/events/freshers" element={<Freshers/>} />
+          <Route exact path="/events/farewell" element={<Farewell/>} />
+          <Route exact path="/events/food-stall" element={<FoodStall/>} />
+          <Route exact path="/events/foundation-day" element={<FoundationDay/>} />
+          {/* TODO: change this to visit a 404 page (may cause confusion otherwise) */}
+          <Route path="*" element={<Home />} /> 
         </Routes>
         <Footer/>
       </div>

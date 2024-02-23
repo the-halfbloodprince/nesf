@@ -33,34 +33,36 @@ import { useState } from 'react';
 
 const Navbar = () => {
 
-  const [showMenuItems,setShowMenuItems]=useState(false);
+  const [showMenuItems,setShowMenuItems] = useState(false);
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.logo}></div>
-      <div className={styles.right}>
+      <div className={styles.left}>
+        <div className={styles.logo}></div>
         <div className={styles.title}>
           <h2>NORTH-EAST STUDENTS' FORUM</h2>
           <p>Indian Institute of Technology Kharagpur</p>
         </div>
+      </div>
+      <div className={styles.right}>
         <div className={styles.links}>
           <div>
-            <Link className={styles.link} to="/Home">
+            <Link className={styles.link} to="/home">
               <p>Home</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/AboutUs">
+            <Link className={styles.link} to="/#about-us">
               <p>About Us</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/Teams">
+            <Link className={styles.link} to="/teams">
               <p>Team</p>
             </Link>
           </div>
           <div>
-            <Link className={styles.link} to="/Events">
+            <Link className={styles.link} to="/events">
               <p>Events</p>
             </Link>
           </div>
@@ -82,7 +84,7 @@ const Navbar = () => {
             <GiHamburgerMenu/>
           </a>
         </div>
-        <div className={showMenuItems?styles.mobileMenuShow:styles.mobileMenuHidden}>
+        <div className={`${styles.mobileMenu} ${showMenuItems && styles.opened}`} >
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/">Home</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/AboutUs">About Us</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Teams">Team</Link>
