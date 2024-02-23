@@ -5,8 +5,6 @@ import Slider from './Slider/Slider.js'
 import Carousal from '../Carousal.js';
 import AboutUs from './AboutUs.js';
 
-import Spline from '@splinetool/react-spline';
-
 const images = [
     // '/highlights/highlight-1.png',
     '/highlights/highlight-2.jpg',
