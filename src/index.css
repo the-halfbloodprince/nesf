@@ -27,8 +27,9 @@
   --primary-color: var(--midnight-blue);
 
   /* TODO: ADD FONTS AND MORE COLORS */
-  --main-body-font: 'Nunito', sans-serif;
-  --stylized-body-font: 'Macondo', sans-serif;
+  --main-body-font: 'Niramit', sans-serif;
+  --stylized-body-font-1: 'Macondo', sans-serif;
+  --stylized-body-font-2: 'Protest Riot', sans-serif;
 
   --border-radius: 25px;
 }

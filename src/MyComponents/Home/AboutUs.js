@@ -34,7 +34,7 @@ const AboutUs = () => {
       {/* TODO: CHANGE WITH ACTUAL CONTENT */}
 
       {/* Society Description */}
-      <h1 className={styles.header}>About NESF</h1>
+      <h1 className={styles.heading}>About NESF</h1>
       <div className={styles.societyDescription}>
         <p>
         Our society is dedicated to fostering a sense of community and support among students hailing from North East India who are pursuing their education at IIT Kharagpur. We aim to create a familial atmosphere where every member feels comfortable and safe, offering a supportive network to navigate through college life.
@@ -51,7 +51,7 @@ const AboutUs = () => {
 
       {/* Work Highlights */}
       <div className={styles.workHighlight}>
-        <h3>Here's a glimpse of the work so far</h3>
+        <h3 className={styles.heading}>Here's a glimpse of the work so far</h3>
         <div className={styles.workHighlight__content}>
           {
             workHighlights.map((highlight,index) => (
@@ -67,12 +67,12 @@ const AboutUs = () => {
 
       {/* Previous Partnerships */}
       <div className={styles.partnerships}>
-          <h2>Partnerships</h2>
+          <h2 className={styles.heading}>Partnerships</h2>
       </div>
 
       {/* Testimonials */}
       <div className={styles.testimonials}>
-          <h2>What people say about us?</h2>
+          <h2 className={styles.heading}>What people say about us?</h2>
       </div>
     </div>
   )

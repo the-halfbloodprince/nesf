@@ -2,7 +2,7 @@
 
 .navbar {
     /* background: linear-gradient(#67B196,#67B196 ,#8dbbab 60%, white ); */
-    font-family: 'Macondo' ;
+    font-family: var(--stylized-body-font-2);
     border:0;
     display:flex;
     justify-content: space-between;
@@ -57,6 +57,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:start;
+    color: var(--midnight-blue);
 }
 
 .title h2 {
@@ -82,7 +83,7 @@
     padding: .4rem 1rem;
     width: 100%;
     text-wrap: nowrap;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--main-body-font);
     border-radius: 12px;
     transition: all .3s ease;
 }
