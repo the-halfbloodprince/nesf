@@ -2,16 +2,16 @@
 
 .home {
     padding: 1rem 2rem;
-    font-family:"Macondo";
+    font-family: var(--main-body-font);
     /* background:url('homebackground.jpeg'); */
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
-.home p{
+/* .home p{
     font-size:2vw;
     font-family:"Macondo";
-}
+} */
 
 .intro {
     /* padding-top:5vw;

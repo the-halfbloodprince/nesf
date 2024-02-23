@@ -34,15 +34,18 @@ const AboutUs = () => {
       {/* TODO: CHANGE WITH ACTUAL CONTENT */}
 
       {/* Society Description */}
+      <h1 className={styles.header}>About NESF</h1>
       <div className={styles.societyDescription}>
         <p>
-          We are a group of people who are passionate about the environment and want to make a difference in the world. We believe that by working together, we can make a positive impact on the environment and help create a better future for all.
+        Our society is dedicated to fostering a sense of community and support among students hailing from North East India who are pursuing their education at IIT Kharagpur. We aim to create a familial atmosphere where every member feels comfortable and safe, offering a supportive network to navigate through college life.
         </p>
+        <div className={styles.photos}>
+          <div><img src="/highlights/highlight-4.jpg" alt="highlight" /></div>
+          <div><img src="/highlights/highlight-2.jpg" alt="highlight" /></div>
+          <div><img src="/highlights/highlight-3.jpg" alt="highlight" /></div>
+        </div>
         <p>
-          Our mission is to raise awareness about environmental issues and promote sustainable living. We are committed to educating people about the importance of protecting the environment and inspiring them to take action.
-        </p>
-        <p>
-          We are dedicated to making a difference in the world and are always looking for new ways to help the environment. We believe that by working together, we can create a better future for all.
+          Our initiatives range from organizing events that celebrate the rich and diverse culture of North East India to providing career counseling workshops led by experienced seniors and industry professionals. Additionally, we extend our reach by conducting workshops for school students across various parts of North East India, aiming to empower and guide them towards a brighter future.
         </p>
       </div>
 

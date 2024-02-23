@@ -6,14 +6,31 @@
   --primary-light-bg: #90e0ef;
   --primary-light-bg-60: #90e0ef77;
   --footer-bg: #4361ee;
-  --primary-color: var(--primary-blue);
+  /* --primary-color: var(--primary-blue); */
   --primary-color-lighter: #ecf39e;
   --secondary-color: lime;
   --link-color-dark: #1b4965;
   --link-color-light: #fffc;
 
+  /* --yellow-light: #ffecce;
+  --yellow-dark: #f9c679;
+  --red: #c00417;
+  --black: #16100d;
+  --gray: #573c38; */
+
+  --midnight-blue: #272264ff;
+  --purpureus: #9653A2ff;
+  --fire-brick: #B83030ff;
+  --pomp-and-power: #885797ff;
+  --mimi-pink: #EECCDAff;
+
+  --primary-color: var(--midnight-blue);
+
   /* TODO: ADD FONTS AND MORE COLORS */
   --main-body-font: 'Nunito', sans-serif;
+  --stylized-body-font: 'Macondo', sans-serif;
+
+  --border-radius: 25px;
 }
 
 body {
@@ -24,6 +41,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   overflow-x: hidden;
+  /* background: var(--midnight-blue); */
+  /* color: var(--mimi-pink); */
+  color: var(--pomp-and-power);
 }
 
 code {
