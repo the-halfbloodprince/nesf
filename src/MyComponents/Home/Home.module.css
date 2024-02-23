@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap'); */
 
 .home {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     font-family: var(--main-body-font);
     /* background:url('homebackground.jpeg'); */
     background-size:cover;
@@ -40,6 +40,7 @@
     /* background: #0007; */
     background: linear-gradient(to right, #000, #0000);
     border-radius: 25px;
+    border: solid 5px var(--midnight-blue);
 
     padding: 0 5rem;
     display: flex;
@@ -50,12 +51,13 @@
 }
 
 .intro__content__text {
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 500;
     width: 50%;
-    font-family: 'Nunito', sans-serif;
-    letter-spacing: -.02em;
+    font-family: var(--stylized-body-font-2);
+    /* letter-spacing: .04em; */
     text-align: left;
+    text-wrap: balance;
 }
 
 /* .splineModel {

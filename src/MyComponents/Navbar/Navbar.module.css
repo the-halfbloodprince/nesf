@@ -9,7 +9,7 @@
     align-items: center;
     font-size: 3rem;
     /* height:7.3vw; */
-    padding: 1rem 2rem;
+    padding: 1rem 0;
 }
 
 .hamburgerMenu{
@@ -80,24 +80,26 @@
 .link{
     text-decoration: none;
     color: black;
-    padding: .4rem 1rem;
+    padding: 0 1rem;
     width: 100%;
     text-wrap: nowrap;
     font-family: var(--main-body-font);
     border-radius: 12px;
     transition: all .3s ease;
 }
-.links p{
+.link p{
     font-size: 1.3rem;
+    line-height: 1em;
     font-weight: 600;
     transition: font-size 0.3s ease-in-out;
     display:inline-block;
+    padding: 0;
     /* margin-bottom:0.3vw; */
 }
 
 .link:hover{
-    background:  var(--primary-color-lighter);
-    color: black;
+    background:  var(--midnight-blue);
+    color: var(--mimi-pink);
 }
 
 /* .links::before{

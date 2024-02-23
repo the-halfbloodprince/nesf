@@ -30,7 +30,7 @@ const images = [
 const Home = () => {
     
     // const splineScenePath = "https://prod.spline.design/REPDQ5Bd6aNHYsAg/scene.splinecode";
-    const motto = "Spreading new hopes and smiles of sunrise to the nation"
+    const motto = "Spreading new ✨hopes✨ and smiles of sunrise to the nation"
 
     // let slides = [
     //     <img src="https://picsum.photos/800/300/?random" alt="1" />,
