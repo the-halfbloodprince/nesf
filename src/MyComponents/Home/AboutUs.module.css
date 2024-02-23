@@ -4,7 +4,8 @@
   flex-direction: column;
   gap: 2rem;
 
-  font-family: 'Nunito', sans-serif;
+  font-family: var(--main-body-font);
+  text-wrap: balance;
   /* text-align: left; */
 }
 
@@ -29,15 +30,15 @@
 }
 
 .societyDescription p:first-child {
-  font-size: 2rem;
-  line-height: 1.2em;
+  font-size: 1.8rem;
+  line-height: 1.4em;
   padding: 0 4rem;
   /* font-family: 'Nunito', sans-serif; */
 }
 
 .societyDescription p {
   font-size: 1.8rem;
-  line-height: 1.2em;
+  line-height: 1.4em;
   /* font-family: 'Nunito', sans-serif; */
 }
 

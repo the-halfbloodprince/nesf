@@ -68,6 +68,6 @@ a:hover {
 }
 
 *::selection {
-  background-color: #333;
-  color: var(--primary-color-lighter);
+  background-color: var(--midnight-blue);
+  color: var(--mimi-pink);
 }
