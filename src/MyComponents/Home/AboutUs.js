@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AboutUs.module.css'
 import HighlightCard from './HighlightCard'
-import Testimonials from '../Testimonials.tsx'
+import Testimonials from '../Testimonials'
 
 const AboutUs = () => {
 

@@ -1,18 +1,18 @@
-import React, { FC } from 'react'
+import React from 'react'
 import styles from './Testimonials.module.css'
-import InfiniteMovingCards from './InfiniteMovingCards.tsx';
+import InfiniteMovingCards from './InfiniteMovingCards';
 
-type Props = {
-  children: React.ReactNode;
-}
+// type Props = {
+//   children: React.ReactNode;
+// }
 
-type Testimonial = {
-  quote: string;
-  name: string;
-  title: string;
-}
+// type Testimonial = {
+//   quote: string;
+//   name: string;
+//   title: string;
+// }
 
-const testimonials: Testimonial[] = [
+const testimonials = [
   {
     quote: "I am so grateful for the support and guidance I received from NESF. It has helped me grow as a person and as a professional.",
     name: "Benjamin Doley",
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
   },
 ]
 
-const Testimonials: FC<Props> = ({ children }) => {
+const Testimonials = ({ children }) => {
   return (
     <div className={styles.testimonials}>
         <h2 className={styles.heading}>What do people say about us?</h2>
@@ -44,11 +44,11 @@ const Testimonials: FC<Props> = ({ children }) => {
   )
 }
 
-type TestimonialCardProps = {
-  testimonial: Testimonial;
-}
+// type TestimonialCardProps = {
+//   testimonial: Testimonial;
+// }
 
-const TestimonialCard: FC<TestimonialCardProps> = ({ testimonial }) => (
+const TestimonialCard = ({ testimonial }) => (
   <div className={styles.testimonial_card}>
     <p className={styles.testimonial_card__quote}>{testimonial.quote}</p>
     <div className={styles.testimonial_card__author}>
