@@ -20,6 +20,7 @@
 
   --midnight-blue: #272264ff;
   --purpureus: #9653A2ff;
+  --secondary-color: #ffb703;
   --fire-brick: #B83030ff;
   --pomp-and-power: #885797ff;
   --mimi-pink: #EECCDAff;
@@ -31,7 +32,9 @@
   --stylized-body-font-1: 'Macondo', sans-serif;
   --stylized-body-font-2: 'Protest Riot', sans-serif;
 
-  --border-radius: 25px;
+  --border-radius: 24px;
+  --border-radius-outer: 24px;
+  --border-radius-inner: 16px;
 }
 
 body {

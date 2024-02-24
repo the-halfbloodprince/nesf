@@ -1,0 +1,44 @@
+.highlight {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #8885;
+  padding: .75rem .75rem 1.3rem;
+
+  gap: 1rem;
+  border-radius: var(--border-radius);
+  transition: all .3s ease;
+}
+
+.highlight:hover {
+  scale: 1.05;
+  transform: translate(-.5rem, -.5rem);
+  box-shadow: .3rem .3rem var(--primary-color);
+}
+
+.highlight img {
+  width: 100%;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+  border-radius: var(--border-radius-inner);
+  /* height: 100%; */
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.textGroup h1 {
+  font-family: var(--stylized-body-font-2);
+  font-size: 2rem;
+  /* font-weight: 600; */
+  color: var(--primary-color);
+}
+
+.textGroup p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  /* letter-spacing: ; */
+  line-height: 1.2em;
+}
