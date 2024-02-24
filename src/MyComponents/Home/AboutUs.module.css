@@ -62,6 +62,13 @@
 .photos > div {
   overflow: hidden;
   border-radius: var(--border-radius);
+  transition: all .3s ease;
+}
+
+.photos > div:hover {
+  transform: scale(.98) translate(-.5rem, -.5rem);
+  /* box-shadow: .7rem .7rem 10rem var(--secondary-color); */
+  box-shadow: .3rem .3rem var(--primary-color), .4rem .4rem var(--secondary-color), .7rem .7rem var(--primary-color);
 }
 
 .photos > div:nth-child(1) {
