@@ -4,6 +4,7 @@ import HighlightCard from './HighlightCard'
 import Testimonials from '../Testimonials'
 import { sponsors } from '../../data/sponsors'
 import InfiniteMovingCards from '../InfiniteMovingCards'
+import Tilt from 'react-parallax-tilt'
 
 const AboutUs = () => {
 
@@ -47,9 +48,9 @@ const AboutUs = () => {
         Our society is dedicated to fostering a sense of community and support among students hailing from North East India who are pursuing their education at IIT Kharagpur. We aim to create a familial atmosphere where every member feels comfortable and safe, offering a supportive network to navigate through college life.
         </p>
         <div className={styles.photos}>
-          <div><img src="/highlights/highlight-4.jpg" alt="highlight" /></div>
-          <div><img src="/highlights/highlight-2.jpg" alt="highlight" /></div>
-          <div><img src="/highlights/highlight-3.jpg" alt="highlight" /></div>
+          <Tilt className={styles.photo} glareEnable={true}><img src="/highlights/highlight-4.jpg" alt="highlight" /></Tilt>
+          <Tilt className={styles.photo} glareEnable={true}><img src="/highlights/highlight-2.jpg" alt="highlight" /></Tilt>
+          <Tilt className={styles.photo} glareEnable={true}><img src="/highlights/highlight-3.jpg" alt="highlight" /></Tilt>
         </div>
         <p>
           Our initiatives range from organizing events that celebrate the rich and diverse culture of North East India to providing career counseling workshops led by experienced seniors and industry professionals. Additionally, we extend our reach by conducting workshops for school students across various parts of North East India, aiming to empower and guide them towards a brighter future.
