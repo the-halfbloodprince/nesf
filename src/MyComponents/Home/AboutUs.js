@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './AboutUs.module.css'
+import HighlightCard from './HighlightCard'
+import Testimonials from '../Testimonials.tsx'
 
 const AboutUs = () => {
 
@@ -9,22 +11,25 @@ const AboutUs = () => {
     {
       title: "North East Festival 2023",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight2.jpg"
+      image: "/highlights/highlight-2.jpg",
+      link: "/events/north-east-festival-2023"
     },
     {
       title: "Career Counselling Workshop",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight3.jpg"
+      image: "/highlights/highlight-3.jpg",
+      link: "/events/north-east-festival-2023"
     },
     {
       title: "North-East Food Fest 2023",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight3.jpg"
+      image: "/highlights/highlight-4.jpg",
+      link: "/events/north-east-festival-2023"
     },
     {
       title: "Career Counselling Drive 2023",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight3.jpg"
+      image: "/highlights/highlight-5.jpg"
     },
   ]
 
@@ -55,11 +60,7 @@ const AboutUs = () => {
         <div className={styles.workHighlight__content}>
           {
             workHighlights.map((highlight,index) => (
-              <div key={index} className={styles.highlight}>
-                <img src={highlight.image} alt={highlight.title} />
-                <h4>{highlight.title}</h4>
-                <p>{highlight.description}</p>
-              </div>
+              <HighlightCard highlight={highlight} key={index} />
             ))
           }
         </div>
@@ -71,9 +72,8 @@ const AboutUs = () => {
       </div>
 
       {/* Testimonials */}
-      <div className={styles.testimonials}>
-          <h2 className={styles.heading}>What people say about us?</h2>
-      </div>
+      <Testimonials />
+
     </div>
   )
 }

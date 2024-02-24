@@ -1,0 +1,21 @@
+.heading {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  font-family: var(--stylized-body-font-2);
+  color: var(--primary-color);
+  /* text-align: left; */
+}
+
+.testimonial_card {
+  /* background: red; */
+  border: solid 2px wheat;
+  display: flex;
+  height: 30vh;
+  max-width: 30vw;
+  width: fit-content;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 1rem;
+}

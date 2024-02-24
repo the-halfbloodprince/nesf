@@ -45,7 +45,7 @@
 .links h2, .contacts h2 {
     font-size: 1.8rem;
     letter-spacing: .2rem;
-    font-family:"Macondo";
+    font-family: var(--stylized-body-font-2);
 }
 
 .contacts {
