@@ -35,7 +35,8 @@ const testimonials = [
   },
 ]
 
-const Testimonials = ({ children }) => {
+const Testimonials = (props) => {
+    
   return (
     <div className={styles.testimonials}>
         <h2 className={styles.heading}>What do people say about us?</h2>

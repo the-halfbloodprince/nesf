@@ -9,13 +9,18 @@ import styles from './InfiniteMovingCards.module.css'
 
 // type Props = {
 //   items: React.ReactNode;
+//   reverse?: boolean;
 // }
 
-const InfiniteMovingCards = ({ items }) => {
+const InfiniteMovingCards = (props) => {
+  
+  const reverse = props.reverse || false;
+  const gap = props.gap || 'small';
+  
   return (
-    <div className={styles.container}>
-      <div className={styles.itemList}>{items}</div>
-      <div className={styles.itemList}>{items}</div>
+    <div data-reverse={reverse} data-gap={gap} className={styles.container}>
+      <div className={styles.itemList}>{props.items}</div>
+      <div className={styles.itemList}>{props.items}</div>
       {/* <div>{items}</div> */}
     </div>
   )

@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './AboutUs.module.css'
 import HighlightCard from './HighlightCard'
 import Testimonials from '../Testimonials'
+import { sponsors } from '../../data/sponsors'
+import InfiniteMovingCards from '../InfiniteMovingCards'
 
 const AboutUs = () => {
 
@@ -69,6 +71,11 @@ const AboutUs = () => {
       {/* Previous Partnerships */}
       <div className={styles.partnerships}>
           <h2 className={styles.heading}>Partnerships</h2>
+          <InfiniteMovingCards items={sponsors.map(sponsor => (
+            <div className={styles.sponsor}>
+              <img src={`/partners/${sponsor.image}`} alt={sponsor.name} />
+            </div>
+          ))} reverse={true} gap='large' />
       </div>
 
       {/* Testimonials */}
