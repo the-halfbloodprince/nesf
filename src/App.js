@@ -18,6 +18,7 @@ import FoodStall from "./MyComponents/Event/FoodStall/FoodStall.js";
 import FoundationDay from "./MyComponents/Event/FoundationDay/FoundationDay.js";
 import CareerCounselling from "./MyComponents/Event/CareerCounselling/CareerCounselling.js";
 import CareerCounsellingWorkshop from "./MyComponents/Event/CareerCounsellingWorkshop/CareerCounsellingWorkshop.js";
+import Partnerships from "../src/MyComponents/partnership/partnership.js";
 
 import Footer from "./MyComponents/Footer/Footer.js";
 
@@ -60,6 +61,7 @@ function App() {
           <Route exact path="/events/farewell" element={<Farewell/>} />
           <Route exact path="/events/food-stall" element={<FoodStall/>} />
           <Route exact path="/events/foundation-day" element={<FoundationDay/>} />
+          <Route exact path="/partnerships" element={<Partnerships/>} />
           {/* TODO: change this to visit a 404 page (may cause confusion otherwise) */}
           <Route path="*" element={<Home />} /> 
         </Routes>
