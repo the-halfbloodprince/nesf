@@ -584,10 +584,11 @@
         font-size: 0.75rem;
     }  
     .green_boxes_one{
-        width:120%;
+        width:100%;
     }
     .event_card_title_one{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        width:30vw;
     }
     .event_card_description_one{
         font-size: 0.7rem;
@@ -630,11 +631,17 @@
 }
 
 @media screen and (max-width:550px){
+    .EventCard{
+        height:36vh;
+    }
     .eventpair{
         display: block;
     }
     .event_card_title_one{
         font-size:1rem;
+        width:50vw;
+        margin-top:1%;
+        margin-bottom:3%;
     }
     .event_card_description_one{
         font-size:0.5rem;
@@ -672,26 +679,6 @@
         width:150%;
         height:60%;
         font-size: 0.5rem;
-    }
-}
-
-@media screen and (max-width:460px){
-    .event_card_title_one{
-        font-size:1rem;
-    }
-    .event_card_description_one{
-        font-size:0.5rem;
-    }
-    .normal{
-        margin-left:-20%;
-    }
-    .green_boxes>.green_box_text_one{
-        font-size: 0.5rem;
-    }
-    .green_boxes_onE>.green_box_one>.green_box_text_one{
-        width:150%;
-        height:60%;
-        font-size: 0.4rem;
     }
 }
 
@@ -768,31 +755,28 @@
     }
 } 
 
-/* @media screen and (min-width:280px) and (max-width:360px){
-    .event_card_title{
+@media screen and (min-width:280px) and (max-width:360px){
+    .event_card_title_one{
         font-size:0.7rem;
     }
-    .event_card_description{
+    .event_card_description_one{
         font-size:0.3rem;
     }
-    .left_side{
-        margin-left:-420%;
+    .normal{
+        margin-left:-100%;
     }
-    .green_boxes>.green_box_text{
-        font-size: 0.2rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:120%;
-        height:30%;
-        font-size: 0.45rem;
+    .green_boxes_one>.green_box_one>.green_box_text_one{
+        width:130%;
+        height:50%;
+        font-size: 0.4rem;
     }
     .logo_container{
         margin-left:-140%;
     }
-    .previous_events_title{
+    .previous_events_title_one{
         font-size:1rem;
     }
-    .previous_events_text{
+    .previous_events_text_one{
         font-size:0.7rem;
     }
-} */
+}
