@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @property --gradient-angle{
     syntax:"<angle>";
     initial-value:0deg;
@@ -210,21 +215,24 @@
     font-weight: 400;
     text-wrap:balance;
     font-family: 'Protest Riot';
-    margin-top:-10%;
+    margin-top:-7%;
+    margin-bottom:5%;
+    margin-left:5%;
 }
 
 .event_card_description{
-    width:fit-content;
-    margin-left:-8%;
-    font-size: 0.9rem
+    width:60vw;
+    margin-left:0%;
+    font-size: 1rem
 }
 
 .green_boxes{
     display:flex;
     justify-content: flex-start;
     width:40vw;
-    margin-left:-15%;
+    margin-left:-7%;
     margin-bottom:3%;
+    margin-top:-8%;
 }
 
 .green_boxes>.green_box{
@@ -234,7 +242,7 @@
 .green_boxes>.green_box>.green_box_text{
     width:150%;
     height:60%;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .green_boxes_one>.green_box_one>.green_box_text_one{
@@ -253,6 +261,8 @@
     color:white;
     width:90vh;
     margin-left:-5%;
+    padding:0;
+    
 }
 
 .logo_container{
@@ -280,17 +290,95 @@
         font-size: 3rem;
     }
     .left_side{
-        margin-left:-0%;
+        margin-left:5%;
     }
 }
 
-@media screen and (max-width:900px){
-    .left_side{
-        margin-left:-20%;
+@media  screen and (max-width:1000px) and (min-width:700px){
+    .event_card_title{
+        font-size: 2rem;
     }
+    .event_card_title>p{
+        text-align: left;
+    }
+    .event_card_description{
+        font-size: 1rem;
+    }
+    .green_boxes>.green_box>.green_box_text{
+        width:150%;
+        height:60%;
+        font-size: 1rem;
+    }
+    
 }
 
 @media screen and (max-width:700px) and (min-width:550px){
+    .event_card_title{
+        font-size:1rem;
+    }
+    .event_card_description{
+        font-size:0.5rem;
+    }
+    .left_side{
+        margin-left:-13%;
+    }
+    .green_boxes>.green_box_text{
+        font-size: 0.5rem;
+    }
+    .green_boxes>.green_box>.green_box_text{
+        width:150%;
+        height:60%;
+        font-size: 0.7rem;
+    }
+    .logo_container{
+        margin-left:5%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .event_card_title{
+        font-size:1rem;
+    }
+    .event_card_description{
+        font-size:0.5rem;
+    }
+    .left_side{
+        margin-left:-20%;
+    }
+    .green_boxes>.green_box_text{
+        font-size: 0.5rem;
+    }
+    .green_boxes>.green_box>.green_box_text{
+        width:150%;
+        height:60%;
+        font-size: 0.6rem;
+    }
+    .logo_container{
+        margin-left:5%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .event_card_title{
+        font-size:1rem;
+    }
+    .event_card_description{
+        font-size:0.5rem;
+    }
+    .left_side{
+        margin-left:-25%;
+    }
+    .green_boxes>.green_box_text{
+        font-size: 0.5rem;
+    }
+    .green_boxes>.green_box>.green_box_text{
+        width:150%;
+        height:60%;
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:460px){
     .event_card_title{
         font-size:1rem;
     }
@@ -306,90 +394,10 @@
     .green_boxes>.green_box>.green_box_text{
         width:150%;
         height:60%;
-        font-size: 0.7rem;
-    }
-}
-
-@media screen and (max-width:550px){
-    .event_card_title{
-        font-size:1rem;
-    }
-    .event_card_description{
-        font-size:0.5rem;
-    }
-    .left_side{
-        margin-left:-45%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:150%;
-        height:60%;
-        font-size: 0.6rem;
-    }
-}
-
-@media screen and (max-width:500px){
-    .event_card_title{
-        font-size:1rem;
-    }
-    .event_card_description{
-        font-size:0.5rem;
-    }
-    .left_side{
-        margin-left:-60%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:150%;
-        height:60%;
-        font-size: 0.5rem;
-    }
-}
-
-@media screen and (max-width:460px){
-    .event_card_title{
-        font-size:1rem;
-    }
-    .event_card_description{
-        font-size:0.5rem;
-    }
-    .left_side{
-        margin-left:-70%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:150%;
-        height:60%;
-        font-size: 0.4rem;
-    }
-}
-
-@media screen and (max-width:460px){
-    .event_card_title{
-        font-size:1rem;
-    }
-    .event_card_description{
-        font-size:0.5rem;
-    }
-    .left_side{
-        margin-left:-70%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:150%;
-        height:60%;
         font-size: 0.4rem;
     }
     .logo_container{
-        margin-left:-15%;
+        margin-left:5%;
     }
     .previous_events_title{
         font-size:1.5rem;
@@ -407,7 +415,7 @@
         font-size:0.4rem;
     }
     .left_side{
-        margin-left:-80%;
+        margin-left:-40%;
     }
     .green_boxes>.green_box_text{
         font-size: 0.3rem;
@@ -418,7 +426,7 @@
         font-size: 0.45rem;
     }
     .logo_container{
-        margin-left:-30%;
+        margin-left: 0px;
     }
     .previous_events_title{
         font-size:1.5rem;
@@ -456,24 +464,21 @@
 
 @media screen and (min-width:279px) and (max-width:359px){
     .EventCard{
-        height:50vh;
+        height:40vh;
     }
     .event_card_title{
-        font-size:0.7rem;
+        font-size:0.5rem;
     }
     .event_card_description{
         font-size:0.3rem;
     }
     .left_side{
-        margin-left:-300%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.2rem;
+        margin-left:50%;
     }
     .green_boxes>.green_box>.green_box_text{
-        width:120%;
+        width:160%;
         height:30%;
-        font-size: 0.45rem;
+        font-size: 0.4rem;
     }
     .logo_container{
         margin-left:-140%;
@@ -483,6 +488,9 @@
     }
     .previous_events_text{
         font-size:0.7rem;
+    }
+    .logo_container{
+        display:none;
     }
 }
 
@@ -559,7 +567,7 @@
 .green_boxes_one>.green_box_one>.green_box_text_one{
     width:130%;
     height:60%;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .green_box_one{
@@ -572,9 +580,12 @@
 }
 
 @media screen and (max-width:1200px){
+    .green_boxes_one>.green_box_one>.green_box_text_one{
+        font-size: 0.75rem;
+    }  
     .green_boxes_one{
-        font-size: 1%;
-    }   
+        width:120%;
+    }
     .event_card_title_one{
         font-size: 2rem;
     }
@@ -595,11 +606,10 @@
         font-size: 0.7rem;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
-        width:130%;
+        width:150%;
         height:60%;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
-    
 }
 
 @media screen and (max-width:700px) and (min-width:550px){
@@ -612,13 +622,10 @@
     .event_card_description_one{
         font-size:0.5rem;
     }
-    .green_boxes_one>.green_box_text_one{
-        font-size: 0.5rem;
-    }
     .green_boxes_one>.green_box_one>.green_box_text_one{
         width:130%;
         height:60%;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
 
@@ -736,6 +743,7 @@
         font-size:1rem;
     }
 }
+*/
 
 @media screen and (max-width:360px){
     .event_card_title{
@@ -758,7 +766,7 @@
     .logo_container{
         margin-left:-60%;
     }
-} */
+} 
 
 /* @media screen and (min-width:280px) and (max-width:360px){
     .event_card_title{
