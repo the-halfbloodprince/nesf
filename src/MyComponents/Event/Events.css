@@ -26,6 +26,9 @@
     /* background-color: black; */
     border-radius: 25px;
     background: linear-gradient(to right, #000, #0000);
+    max-width:1000px;
+    margin: auto;
+    margin-top:5vh;
 }
 
 @keyframes rotation{
@@ -134,7 +137,18 @@
     .coming_soon_text{
         font-size:0.5rem;
     }
+    .green_box_text{
+        font-size:1rem;
+    }
+    .event_content_text{
+        font-size:2rem;
+    }
+    .coming_soon_text{
+        font-size:1rem;
+    }
 }
+
+
 @media screen and (max-width:300px){
     .event_content_text{
         margin-top:20%;
@@ -150,20 +164,23 @@
 }
 
 .previous_events{
-    margin:7vh;
-    left:0%;
     height:100%;
     width:100%;
     display:flex;
     flex-direction: column;
     align-items:flex-start;
-    margin:5%;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    max-width: 1000px;
+    margin:auto;
 }
 
 .previous_events_title{
     color:black;
     font-size:3rem;
+    margin-top:5vh;
     font-family: 'Protest Riot';
+    margin-bottom:1vh;
 }
 
 .previous_events_text{
@@ -173,10 +190,28 @@
     justify-self:start;
     display:flex;
     width:60vw;
+    margin-bottom:5vh;
+}
+
+.eventpair{
+    max-width:1000px;
+    margin:auto;
+    gap:5%;
 }
 
 .previous_events_text>p, .event_card_description>p{
     text-align: left;
+}
+
+@media screen and (max-width:700px){
+    .previous_events{
+        justify-content: center;
+        align-items:center;
+        margin-top:5vh;
+    }
+    .previous_events_text>p{
+        text-align: center;
+    }
 }
 
 .fest23img{
@@ -195,6 +230,10 @@
     border-radius: 25px;
     background: linear-gradient(to right, #000, #0000);
     margin:3%;
+    max-width:1000px;
+    margin:auto;
+    margin-top:5vh;
+    margin-bottom:5vh;
 }
 
 .event_card_content{
@@ -208,35 +247,55 @@
     align-items:center;
     justify-content:space-between;
     color:white;
+    max-width:1000px;
+    margin:auto;
+}
+
+.left_side{
+    display:flex;
+    align-items: flex-start;
+    gap:1vh;
 }
 
 .event_card_title{
-    font-size:1.8rem;
+    position:relative;
+    left:0;
+    font-size:2.2rem;
     font-weight: 400;
     text-wrap:balance;
     font-family: 'Protest Riot';
-    margin-top:-7%;
-    margin-bottom:5%;
-    margin-left:5%;
+    margin-top:0%;
+    margin-bottom:0;
+    max-width: 500px;
+    /* margin-left:5%; */
+}
+
+.event_card_title>p{
+    margin-top:5%;
+    margin-bottom:1%;
+    text-align: left;
 }
 
 .event_card_description{
-    width:60vw;
+    max-width:500px;
     margin-left:0%;
-    font-size: 1rem
+    font-size:1.1rem;
 }
 
 .green_boxes{
+    position:absolute;
+    left:0%;
     display:flex;
     justify-content: flex-start;
     width:40vw;
-    margin-left:-7%;
     margin-bottom:3%;
     margin-top:-8%;
+    gap:8%;
 }
 
 .green_boxes>.green_box{
-    margin:10%;
+    /* margin:10%; */
+    margin-bottom:10%;
 }
 
 .green_boxes>.green_box>.green_box_text{
@@ -260,16 +319,14 @@
     align-items:flex-start;
     color:white;
     width:90vh;
-    margin-left:-5%;
     padding:0;
-    
 }
 
 .logo_container{
     display:flex;
     height:50%;
     align-items: flex-end;
-    margin-left:-5%;
+    /* margin-left:-5%; */
 }
 
 .festlogo{
@@ -279,22 +336,9 @@
 
 .event_card_title>p{
     text-align: left;
-    margin-left:-10%;
 }
 
-@media screen and (min-width:1000px) {
-    .green_boxes{
-        font-size: 2rem;
-    }   
-    .event_card_title{
-        font-size: 3rem;
-    }
-    .left_side{
-        margin-left:5%;
-    }
-}
-
-@media  screen and (max-width:1000px) and (min-width:700px){
+@media screen and (max-width:1000px) {
     .event_card_title{
         font-size: 2rem;
     }
@@ -303,50 +347,52 @@
     }
     .event_card_description{
         font-size: 1rem;
+        max-width: 450px;
     }
     .green_boxes>.green_box>.green_box_text{
-        width:150%;
+        width:140%;
         height:60%;
         font-size: 1rem;
     }
-    
 }
 
-@media screen and (max-width:700px) and (min-width:550px){
+@media screen and (max-width:700px){
     .event_card_title{
-        font-size:1rem;
+        font-size:1.5rem;
     }
     .event_card_description{
-        font-size:0.5rem;
+        font-size:0.8rem;
+        max-width:400px;
     }
     .left_side{
         margin-left:-13%;
     }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
     .green_boxes>.green_box>.green_box_text{
-        width:150%;
+        width:140%;
         height:60%;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .logo_container{
-        margin-left:5%;
+        margin-right:-10%;
+    }
+    .previous_events_title{
+        font-size:1.5rem;
+    }
+    .previous_events_text{
+        font-size:1rem;
     }
 }
 
 @media screen and (max-width:550px){
     .event_card_title{
-        font-size:1rem;
+        font-size:1.3rem;
     }
     .event_card_description{
-        font-size:0.5rem;
+        font-size:0.7rem;
+        max-width:350px;
     }
     .left_side{
         margin-left:-20%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
     }
     .green_boxes>.green_box>.green_box_text{
         width:150%;
@@ -354,27 +400,25 @@
         font-size: 0.6rem;
     }
     .logo_container{
-        margin-left:5%;
+        margin-right:-15%;
     }
 }
 
 @media screen and (max-width:500px){
     .event_card_title{
-        font-size:1rem;
+        font-size:1.2rem;
     }
     .event_card_description{
-        font-size:0.5rem;
-    }
-    .left_side{
-        margin-left:-25%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
+        font-size:0.6rem;
+        max-width:300px;
     }
     .green_boxes>.green_box>.green_box_text{
-        width:150%;
+        width:140%;
         height:60%;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+    }
+    .logo_container{
+        margin-right:-20%;
     }
 }
 
@@ -388,9 +432,6 @@
     .left_side{
         margin-left:-30%;
     }
-    .green_boxes>.green_box_text{
-        font-size: 0.5rem;
-    }
     .green_boxes>.green_box>.green_box_text{
         width:150%;
         height:60%;
@@ -399,95 +440,25 @@
     .logo_container{
         margin-left:5%;
     }
-    .previous_events_title{
-        font-size:1.5rem;
-    }
-    .previous_events_text{
-        font-size:1rem;
-    }
-}
-
-@media screen and (max-width:420px){
-    .event_card_title{
-        font-size:0.8rem;
-    }
-    .event_card_description{
-        font-size:0.4rem;
-    }
-    .left_side{
-        margin-left:-40%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.3rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:150%;
-        height:60%;
-        font-size: 0.45rem;
-    }
-    .logo_container{
-        margin-left: 0px;
-    }
-    .previous_events_title{
-        font-size:1.5rem;
-    }
-    .previous_events_text{
-        font-size:1rem;
-    }
 }
 
 @media screen and (max-width:360px){
+    .left_side{
+        gap:15%;
+    }
     .event_card_title{
         font-size:0.8rem;
     }
     .event_card_description{
-        font-size:0.4rem;
-    }
-    .left_side{
-        margin-left:-110%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.2rem;
+        font-size:0.2rem;
     }
     .green_boxes>.green_box>.green_box_text{
-        width:120%;
+        width:140%;
         height:80%;
-        font-size: 0.45rem;
-    }
-    .logo_container{
-        margin-left:-60%;
+        font-size: 0.5rem;
     }
     .green_boxes>.green_box{
         height:100%;
-    }
-}
-
-@media screen and (min-width:279px) and (max-width:359px){
-    .EventCard{
-        height:40vh;
-    }
-    .event_card_title{
-        font-size:0.5rem;
-    }
-    .event_card_description{
-        font-size:0.3rem;
-    }
-    .left_side{
-        margin-left:50%;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:160%;
-        height:30%;
-        font-size: 0.4rem;
-    }
-    .logo_container{
-        margin-left:-140%;
-    }
-    .previous_events_title{
-        font-size:1rem;
-    }
-    .previous_events_text{
-        font-size:0.7rem;
     }
     .logo_container{
         display:none;
@@ -504,10 +475,10 @@
     position:relative;
     display:grid;
     place-items:center;
-    justify-content: center;
     border-radius: 25px;
     background: linear-gradient(to right, #000, #0000);
-    margin:3%;
+    margin-top:5vh;
+    margin-bottom:5vh;
 }
 
 .normal{
@@ -515,29 +486,29 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content:space-between;
-    margin:-0%;
+    gap:3%;
+    position:absolute;
+    left:3%;
 }
 
 .event_card_title_one{
-    font-size:2.3rem;
+    position:relative;
+    left:0;
+    font-size:2rem;
     font-weight: 400;
     text-wrap:balance;
     font-family: 'Protest Riot';
-    margin-left:-8%;
 }
 
 .event_card_description_one{
     width:fit-content;
-    margin-left:-8%;
-    font-size: 1rem
+    /* margin-left:-8%; */
+    font-size: 1rem;
+    max-width: 400px;
 }
 
 .event_card_description_one>p{
     text-align: left;
-}
-
-.green_boxes_one>.green_box_one{
-    margin-left:10%;
 }
 
 .green_box_text_one{
@@ -560,14 +531,14 @@
     display:flex;
     justify-content: flex-start;
     width:25vw;
-    margin-left:-15%;
+    /* margin-left:-15%; */
     margin-bottom:3%;
 }
 
 .green_boxes_one>.green_box_one>.green_box_text_one{
     width:130%;
     height:60%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .green_box_one{
@@ -581,7 +552,7 @@
 
 @media screen and (max-width:1200px){
     .green_boxes_one>.green_box_one>.green_box_text_one{
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }  
     .green_boxes_one{
         width:100%;
@@ -591,94 +562,89 @@
         width:30vw;
     }
     .event_card_description_one{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
-
-@media  screen and (max-width:1000px) and (min-width:700px){
+@media  screen and (max-width:1000px){
     .event_card_title_one{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .event_card_title_one>p{
         text-align: left;
+        margin-top:1%;
+        margin-bottom:1%;
     }
     .event_card_description_one{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
         width:150%;
         height:60%;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 
-@media screen and (max-width:700px) and (min-width:550px){
-    .normal{
-        margin-left:-30%;
+@media screen and (max-width:700px){
+    .eventpair{
+        display: block;
+    }
+    .EventCard_one{
+        height:fit-content
     }
     .event_card_title_one{
-        font-size:1rem;
+        font-size:1.5rem;
+        width:100%;
     }
     .event_card_description_one{
-        font-size:0.5rem;
+        font-size:0.8rem;
+    }
+    .green_boxes>{
+        gap:5%;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
-        width:130%;
+        width:140%;
         height:60%;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width:550px){
-    .EventCard{
-        height:36vh;
-    }
     .eventpair{
         display: block;
     }
     .event_card_title_one{
-        font-size:1rem;
+        font-size:1.4rem;
         width:50vw;
         margin-top:1%;
         margin-bottom:3%;
     }
     .event_card_description_one{
-        font-size:0.5rem;
-    }
-    .normal{
-        margin-left:-12%;
+        font-size:0.7rem;
     }
     .green_boxes>.green_box_text_one{
         font-size: 0.5rem;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
-        width:140%;
+        width:150%;
         height:60%;
         font-size: 0.6rem;
     }
     .green_boxes_one{
         width:40vw;
+        gap:3%;
     }
 }
 
 @media screen and (max-width:500px){
-    .event_card_title_one{
-        font-size:1rem;
-    }
     .event_card_description_one{
-        font-size:0.5rem;
-    }
-    .normal{
-        margin-left:-20%;
-    }
-    .green_boxes_one>.green_box_text_one{
-        font-size: 0.5rem;
+        font-size:0.7rem;
+        max-width:300px;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
-        width:150%;
+        width:140%;
         height:60%;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 }
 
@@ -688,9 +654,6 @@
     }
     .event_card_description_one{
         font-size:0.5rem;
-    }
-    .normal{
-        margin-left:-20%;
     }
     .green_boxes_one>.green_box_text_one{
         font-size: 0.5rem;
@@ -723,7 +686,7 @@
     .logo_container{
         margin-left:-30%;
     }
-    .previous_events_title{
+    ._events_title{
         font-size:1.5rem;
     }
     .previous_events_text{
@@ -733,42 +696,16 @@
 */
 
 @media screen and (max-width:360px){
-    .event_card_title{
+    .event_card_title_one{
         font-size:0.8rem;
     }
-    .event_card_description{
-        font-size:0.4rem;
-    }
-    .left_side{
-        margin-left:-130%;
-    }
-    .green_boxes>.green_box_text{
-        font-size: 0.2rem;
-    }
-    .green_boxes>.green_box>.green_box_text{
-        width:120%;
-        height:60%;
-        font-size: 0.45rem;
-    }
-    .logo_container{
-        margin-left:-60%;
-    }
-} 
-
-@media screen and (min-width:280px) and (max-width:360px){
-    .event_card_title_one{
-        font-size:0.7rem;
-    }
     .event_card_description_one{
-        font-size:0.3rem;
-    }
-    .normal{
-        margin-left:-100%;
+        font-size:0.45rem;
     }
     .green_boxes_one>.green_box_one>.green_box_text_one{
         width:130%;
         height:50%;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
     .logo_container{
         margin-left:-140%;

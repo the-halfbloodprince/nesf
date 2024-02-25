@@ -2,7 +2,7 @@ import React from 'react'
 import fest23 from './Fest23.png';
 import logo from './nefestlogo.png'
 
-export const EventCard = ({present}) => {
+export const EventCard = ({present,event}) => {
   return (
     <div className={present?"EventCard":"EventCard_one"}>
         <img className="fest23img" src={fest23} alt="" />
@@ -22,12 +22,12 @@ export const EventCard = ({present}) => {
                 </div>
                 <div className={present?"event_card_title":"event_card_title_one"}>
                     <p>
-                    North East Festival 2023
+                    {event?.title}
                     </p>
                 </div>
                 <div className={present?"event_card_description":"event_card_description_one"}>
                     <p>
-                        We organize a diverse set of events aimed at all round development of the north eastern students at IIT Kharagpur and promoting and showcasing north-eastern culture and tradition. Take a glimpse at our work so far below.
+                    {event?.description}
                     </p>
                 </div>
             </div>
