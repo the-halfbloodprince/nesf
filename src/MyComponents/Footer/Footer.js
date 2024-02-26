@@ -50,15 +50,6 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <h2>Quick Links</h2>
-                <div className={styles.linksGroup}>
-                    <a href='/about-us'>About Us</a>
-                    <a href='/events'>Events</a>
-                    <a href='/photo-gallery'>Photo Gallery</a>
-                    <a href='/sponsors'>Sponsors</a>
-                    <a href='/alumni'>Alumni</a>
-                    <a href='/constitution'>Constitution</a>
-                </div>
             </div>
             <div className={styles.contacts}>
                 <h2>Contact Us</h2>

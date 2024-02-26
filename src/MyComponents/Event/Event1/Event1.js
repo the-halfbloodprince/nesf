@@ -67,7 +67,7 @@ const Event1 = (props) => {
             <img src="/highlights/highlight-3.jpg" alt="highlight" />
           </Tilt>
         </div>
-        <div className={styles.photos}>
+        {/* <div className={styles.photos}>
           <Tilt className={styles.photo} glareEnable={true}>
             <img src={event.images[0]} alt="highlight" />
           </Tilt>
@@ -77,7 +77,7 @@ const Event1 = (props) => {
           <Tilt className={styles.photo} glareEnable={true}>
             <img src={event.images[2]} alt="highlight" />
           </Tilt>
-        </div>
+        </div> */}
 
         <div className={styles.container1}>
           <div className={styles.left}>
