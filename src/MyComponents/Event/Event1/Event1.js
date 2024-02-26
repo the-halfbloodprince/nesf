@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./Event1.module.css";
 import Tilt from "react-parallax-tilt";
+
+import { events } from '../../../data/events';
 
 const Event1 = (props) => {
   const handleClick = () => {
@@ -10,6 +12,17 @@ const Event1 = (props) => {
       behavior: "smooth",
     });
   };
+
+  // extract slug
+  const location = useLocation();
+  const pathName = location.pathname.at(-1) === '/' ? location.pathname.slice(8, -1) : location.pathname.slice(8);
+  console.log(pathName);
+
+  console.log(events)
+
+  // filter event
+  const event = events.find(event => event.slug === pathName);
+  console.log(event)
 
   return (
     <div className={styles.container}>
