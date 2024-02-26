@@ -55,7 +55,7 @@ const Footer = () => {
             <div className={styles.contacts}>
                 <h2>Contact Us</h2>
                 <div className={styles.linksGroup}>
-                    <tel>+91-6002407523</tel>
+                    <p>+91-6002407523</p>
                     <a href='mailto:nesciitkgp@gmail.com'>nesciitkgp@gmail.com</a>
                 </div>
             </div>
