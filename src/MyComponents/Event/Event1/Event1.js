@@ -10,8 +10,9 @@ const Event1 = (props) => {
       behavior: "smooth",
     });
   };
+
   return (
-    <div id="about-us" className={styles.container}>
+    <div className={styles.container}>
       {/* Event Description */}
 
       <div className={styles.societyDescription}>
