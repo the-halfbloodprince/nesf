@@ -1,10 +1,14 @@
 import React from 'react'
 import fest23 from './Fest23.png';
 import logo from './nefestlogo.png'
+import { useNavigate } from 'react-router-dom';
 
 export const EventCard = ({present,event}) => {
+
+    const navigate=useNavigate();
+
   return (
-    <div className={present?"EventCard":"EventCard_one"}>
+    <div onClick={()=>navigate(event?.site)} className={present?"EventCard":"EventCard_one"}>
         <img className="fest23img" src={event?.image} alt="" />
         <div className="event_card_content">
             <div className={present?"left_side":"normal"}>
