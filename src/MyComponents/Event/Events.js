@@ -8,31 +8,31 @@ function Events() {
     const events=[
         {
             title:"North East Festival 2023",
-            description:"The North East Festival at IIT Kharagpur is an annual cultural extravaganza that showcases the rich diversity of North East India. Through captivating performances, inspiring speeches, and vibrant showcases, the festival fosters unity and appreciation on campus, providing a platform for cultural exchange and understanding among students and faculty."
+            description:"IIT Kharagpur's annual celebration of North East India's diversity, uniting through captivating performances, inspiring speeches, and vibrant showcases, fostering cultural understanding."
         },
         {
             title:"Foundation Day",
-            description:"On October 29th, the North East Students' Forum, IIT Kharagpur, celebrates its Foundation Day, reflecting a year of growth. Spirited performances, engaging activities, and esteemed guests foster unity, culminating in a shared dinner to strengthen bonds within the vibrant community."
+            description:"Embracing growth with spirited performances, engaging activities, esteemed guests, and a shared dinner, strengthening the vibrant bonds within the North East Students' Forum community"
         },
         {
             title:"Food Stall",
-            description:"Collaborating with Shaurya, IIT Kharagpur's sports fest, the North East Students' Forum hosted a 3-day Food Stall event from October 13th to 15th, 2023. With diverse dishes and traditional attires, the event, a blend of authentic flavors and cultural exploration, was a resounding success by talented forum members."
+            description:"A harmonious blend of diverse dishes and traditional attires at the collaborative 3-day event with Shaurya, showcasing cultural exploration by talented forum members."
         },
         {
             title:"Freshers",
-            description:"Annually, IIT Kharagpur's North East Students' Forum hosts a vibrant Freshers' Event, welcoming new students with dynamic performances, a Mr. and Ms. Freshers' competition, and inspiring messages from esteemed professors, setting the tone for a year of growth and friendship within our college community."
+            description:"Welcoming new students with vibrancy, dynamic performances, a Mr. and Ms. Freshers' competition, and uplifting messages from esteemed professors, setting the tone for growth and friendship"
         },
         {
             title:"Farewell",
-            description:"Annually, the North East Students' Forum hosts a cherished Annual Farewell Gala, bidding adieu to graduating students. The event unites students through performances, honors departing individuals with gifts and shared experiences, and concludes with a communal dinner, marking the end of one chapter and the start of new adventures for all."
+            description:"A cherished annual gala bidding adieu to graduating students, uniting through heartwarming performances, thoughtful gifts, shared experiences, and a symbolic communal dinner."
         },
         {
             title:"Career Counselling Session",
-            description:"The North East Students' Forum at IIT Kharagpur hosts annual career counseling sessions, both online and offline, featuring alumni, professors, and industry representatives. Focused on Career Development Counseling (CDC) and placement talks, these sessions provide valuable insights, helping students make informed decisions and step out of their comfort zones for a rewarding professional journey."
+            description:"IIT Kharagpur's annual sessions featuring alumni, professors, and industry representatives, focusing on Career Development Counseling and offering valuable insights for a rewarding professional journey."
         },
         {
             title:"Career Counselling Workshop",
-            description:"IIT Kharagpur's North East Students' Forum conducts a career counseling workshop for rural students in North East India, dispelling education myths and providing clarity for classes 8 to 12. The 2023 workshop reached eight districts in Assam, advancing awareness about quality education. The forum remains committed to nurturing young aspirations in the North Eastern Region."
+            description:"Nurturing young aspirations in North East India through a workshop dispelling myths, providing clarity, and advancing awareness about quality education in eight districts of Assam."
         }
     ]
 
