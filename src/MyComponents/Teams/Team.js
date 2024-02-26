@@ -35,18 +35,32 @@ const Team={
         {
             name:"Reuben Sanname Lyndem",
             image:"scoor/Reuben.jpeg"
+        },
+        {
+            name:"Zingya C Raman",
+            image:" "
         }
     ],
     studentsWelfareSeniorCoordinator:[
         {
             name:"Moarenla Y Longkumer",
             image:"scoor/Moarenla.jpg"
+        },
+        {
+            name:"H Zothanpuii",
+            image:" "
         }
     ],
     eventsSeniorCoordinator:[
         {
             name:"Trishna Das",
             image:"scoor/Trishna.jpeg"
+        }
+    ],
+    financeSeniorCoordinator:[
+        {
+            name:"Pranjal Baishya",
+            image:" "
         }
     ],
     governors:[

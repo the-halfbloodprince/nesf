@@ -9,7 +9,7 @@ const Carousal = (props) => {
   
   return (
     <div className={styles.container}>
-      <ReactImageCarousal dynamicHeight={false} autoPlay={true} infiniteLoop={true} showArrows={true} showThumbs={false} showStatus={false} >
+      <ReactImageCarousal classname={styles.carousal} dynamicHeight={false} autoPlay={true} infiniteLoop={true} showArrows={true} showThumbs={false} showStatus={false} >
         {
           imagePaths.map(imagePath => (
             <div className={styles.image_container}>

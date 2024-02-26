@@ -31,10 +31,10 @@ const Event1 = (props) => {
       <div className={styles.societyDescription}>
         <div className={styles.container1}>
           <div className={styles.left}>
-            <h1 className={styles.heading}>{props.heading}</h1>
-            <p>{props.description1}</p>
+            <h1 className={styles.heading}>{event.name}</h1>
+            <p>{event.description[0]}</p>
           </div>
-          <div className={styles.right}>
+          {/* <div className={styles.right}>
             <div className={styles.subright}>
               <p className={styles.color1}>5K+ </p>
               <p> footfalls</p>
@@ -47,7 +47,13 @@ const Event1 = (props) => {
             <p className={styles.subright}>
               <p className={styles.color3}>20K+</p> <p>something</p>
             </p>
+          </div> */}
+          <div className={styles.highlights}>
+            <p>{event.highlights[0]}</p>
+            <p>{event.highlights[1]}</p>
+            <p>{event.highlights[2]}</p>
           </div>
+
         </div>
 
         <div className={styles.photos}>
@@ -61,13 +67,24 @@ const Event1 = (props) => {
             <img src="/highlights/highlight-3.jpg" alt="highlight" />
           </Tilt>
         </div>
+        <div className={styles.photos}>
+          <Tilt className={styles.photo} glareEnable={true}>
+            <img src={event.images[0]} alt="highlight" />
+          </Tilt>
+          <Tilt className={styles.photo} glareEnable={true}>
+            <img src={event.images[1]} alt="highlight" />
+          </Tilt>
+          <Tilt className={styles.photo} glareEnable={true}>
+            <img src={event.images[2]} alt="highlight" />
+          </Tilt>
+        </div>
 
         <div className={styles.container1}>
           <div className={styles.left}>
-            <p>{props.description2}</p>
+            <p>{event.description[1]}</p>
           </div>
           <div className={styles.right}>
-            <div className={styles.subright1}>
+            <div className={styles.links}>
               <p className={styles.heading}>Other events </p>
               <Link
                 className={styles.others}

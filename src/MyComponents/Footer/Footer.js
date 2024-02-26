@@ -42,6 +42,14 @@ const Footer = () => {
     return ( 
         <div className={styles.footer}>
             <div className={styles.links}>
+                <div className={styles.quickLinks}>
+                    <h2>Quick Links</h2>
+                    <div className={styles.linksGroup}>
+                        {footerLinks.quickLinks.map((link, index) => (
+                            <a href={link.link} key={index}>{link.name}</a>
+                        ))}
+                    </div>
+                </div>
                 <h2>Quick Links</h2>
                 <div className={styles.linksGroup}>
                     <a href='/about-us'>About Us</a>

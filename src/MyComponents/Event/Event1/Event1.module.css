@@ -2,6 +2,8 @@
     /* padding: 4rem 0; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
     gap: 2rem;
   
     font-family: var(--main-body-font);
@@ -26,12 +28,14 @@
     gap: 2rem;
     font-size: 2rem;
     line-height: 1.4em;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     letter-spacing: -.02em;
     font-weight: 600;
     /* padding: 0 4rem; */
     max-width: 1000px;
-    margin: auto;
+    align-items:center;
+    justify-content:center;
+    /* margin: auto; */
     
   }
   
@@ -97,6 +101,14 @@
     color: #1b99e5
   }
 
+  .highlights{
+    margin:1rem;
+    margin-left:4rem;
+  }
+  .links{
+    display:flex;
+    flex-direction: column;
+  }
   .societyDescription p:first-child {
     /* font-size: 1.8rem;
     line-height: 1.4em; */
@@ -213,20 +225,30 @@
     } 
     .left{
         width:58vw;
-        font-size: 0.8rem;
-        line-height: 1rem; 
+        font-size: 1rem;
+        line-height: 1.2rem; 
       }
     .right{
-        font-size: 1.1rem;
+        font-size: 6rem;
         line-height: 1.2rem;
         margin-left:4rem;
+      }
+      .highlights{
+        font-size:1rem;
+        line-height:1.5rem;
+        margin-left:1.7rem;
+      }
+      .others{
+        font-size:1rem;
       }
   }
   
   @media only screen and (max-width: 500px){
     .societyDescription {
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 0;
+      align-items:center;
+
     }
   
     .photos > div:nth-child(1) {
@@ -240,21 +262,45 @@
       grid-column: 1 / -1;
     }
     .heading{
-        font-size:0.9rem;
+        font-size:1rem;
+        text-align:center;
+    }
+
+    .container1{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      /* margin:1rem; */
     }
     
     .left{
-        width:50vw;
-        font-size: 0.7rem;
-        line-height: 1rem;
-        
-      }
-    .right{
+        width:80vw;
+        /* align-items:center; */
+        /* justify-content: center; */
         font-size: 0.8rem;
         line-height: 1rem;
-        margin-left:2rem;
+        text-align:center;
+        
+      }
+    
+
+      .right{
+        flex-direction: column;
+        /* justify-content:right; */
+        /* align-items: right; */
+        /* text-align: right; */
+        margin-left:0rem;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+      }
+      .subright{
+        align-items: center;
+        justify-content: center;
       }
     .others{
         font-size:0.6rem;
+        text-align:center;
+        
     }
   }

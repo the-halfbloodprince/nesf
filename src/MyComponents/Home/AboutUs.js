@@ -18,7 +18,7 @@ const AboutUs = () => {
       link: "/events/north-east-festival-2023"
     },
     {
-      title: "Career Counselling Workshop",
+      title: "Career Counselling Session",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
       image: "/highlights/highlight-3.jpg",
       link: "/events/north-east-festival-2023"
@@ -30,7 +30,7 @@ const AboutUs = () => {
       link: "/events/north-east-festival-2023"
     },
     {
-      title: "Career Counselling Drive 2023",
+      title: "Career Counselling 2023",
       description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
       image: "/highlights/highlight-5.jpg"
     },
@@ -59,7 +59,7 @@ const AboutUs = () => {
 
       {/* Work Highlights */}
       <div className={styles.workHighlight}>
-        <h3 className={styles.heading}>Here's a glimpse of the work so far</h3>
+        <h1 className={styles.heading}>Here's a glimpse of the work so far</h1>
         <div className={styles.workHighlight__content}>
           {
             workHighlights.map((highlight,index) => (
