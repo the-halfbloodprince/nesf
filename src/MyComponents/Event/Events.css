@@ -63,6 +63,7 @@
     height:100%;
     justify-self: center;
     align-self: center;
+    border-radius: 25px;
 }
 
 .event_content{
@@ -215,25 +216,28 @@
 }
 
 .fest23img{
-    width:100%;
-    height:100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin:auto;
 }
 
 .EventCard{
     width:fit-content;
     height:100%;
     position:relative;
-    display:grid;
+    display:flex;
     place-items:center;
     justify-content: center;
     /* background-color: black; */
-    border-radius: 25px;
+    border-radius: 15px;
     background: linear-gradient(to right, #000, #0000);
     margin:3%;
     max-width:1000px;
     margin:auto;
     margin-top:5vh;
     margin-bottom:5vh;
+    overflow: hidden;
 }
 
 .event_card_content{
@@ -470,15 +474,16 @@
 }
 
 .EventCard_one{
-    width:fit-content;
-    height:37vh;
+    width:100%;
     position:relative;
-    display:grid;
+    display:flex;
     place-items:center;
-    border-radius: 25px;
-    background: linear-gradient(to right, #000, #0000);
+    justify-content: center;
+    border-radius: 15px;
+    background: linear-gradient(to right, #5c5c5c, #aba8a800);
     margin-top:5vh;
     margin-bottom:5vh;
+    overflow: hidden;
 }
 
 .normal{
@@ -498,6 +503,7 @@
     font-weight: 400;
     text-wrap:balance;
     font-family: 'Protest Riot';
+    padding:3%;
 }
 
 .event_card_description_one{
@@ -505,6 +511,7 @@
     /* margin-left:-8%; */
     font-size: 1rem;
     max-width: 400px;
+    padding:3%;
 }
 
 .event_card_description_one>p{
@@ -533,6 +540,7 @@
     width:25vw;
     /* margin-left:-15%; */
     margin-bottom:3%;
+    padding-left:3%;
 }
 
 .green_boxes_one>.green_box_one>.green_box_text_one{
@@ -590,7 +598,8 @@
         display: block;
     }
     .EventCard_one{
-        height:fit-content
+        height:fit-content;
+        max-height: 37vh;
     }
     .event_card_title_one{
         font-size:1.5rem;
