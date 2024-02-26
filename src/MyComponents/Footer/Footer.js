@@ -1,4 +1,43 @@
 import styles from './Footer.module.css';
+
+const footerLinks = {
+    quickLinks: [
+        {name: "About Us", link: "/about-us", disabled: false},
+        {name: "Events", link: "/events", disabled: false},
+        {name: "Photo Gallery", link: "/photo-gallery", disabled: true},
+        {name: "Partnerships", link: "/partnerships", disabled: false},
+        {name: "Alumni", link: "/alumni", disabled: true},
+        {name: "Constitution", link: "/constitution", disabled: true}
+    ],
+    events: [
+        {name: "North East Festival", link: "/north-east-festival", disabled: false},
+        {name: "Foundation Day", link: "/foundation-day", disabled: false},
+        {name: "Food Stall", link: "/food-stall", disabled: false},
+        {name: "Career Counselling Session", link: "/career-counselling-session", disabled: false},
+        {name: "Career Counselling Workshop", link: "/career-counselling-workshop", disabled: false},
+        {name: "Farewell", link: "/farewell", disabled: false},
+        {name: "Freshers", link: "/freshers", disabled: false}
+    ],
+    teams: [
+        {name: "Core Team", link: "/core-team", disabled: true},
+        {name: "Events Team", link: "/events-team", disabled: true},
+        {name: "Logistics Team", link: "/logistics-team", disabled: true},
+        {name: "Media Team", link: "/media-team", disabled: true},
+        {name: "Web Team", link: "/web-team", disabled: true},
+        {name: "Sponsorship Team", link: "/sponsorship-team", disabled: true}
+    ],
+    contactDetails: [
+        {name: "Phone", link: "+91-6002407523", disabled: false},
+        {name: "Email", link: "mailto:nesciitkgp@gmail.com", disabled: false},
+        {name: "Address", link: "IIT Kharagpur, Kharagpur, West Bengal, India", disabled: false},
+        {name: "Facebook", link: "https://www.facebook.com/yourpage", disabled: false},
+        {name: "LinkedIn", link: "https://www.linkedin.com/yourpage", disabled: false},
+        {name: "Instagram", link: "https://www.instagram.com/yourpage", disabled: false},
+        {name: "Twitter", link: "https://www.twitter.com/yourpage", disabled: false},
+        {name: "Instagram", link: "https://www.instagram.com/yourpage", disabled: false}
+    ]
+};
+
 const Footer = () => {
     return ( 
         <div className={styles.footer}>
