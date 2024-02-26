@@ -12,27 +12,29 @@ const AboutUs = () => {
 
   const workHighlights = [
     {
-      title: "North East Festival 2023",
-      description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
+      title: "North-East Festival 2023",
+      description: "IIT Kharagpur's annual celebration of North East India's diversity, uniting through captivating performances, inspiring speeches, and vibrant showcases, fostering cultural understanding.",
       image: "/highlights/highlight-2.jpg",
       link: "/events/north-east-festival-2023"
     },
     {
-      title: "Career Counselling Session",
-      description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight-3.jpg",
+
+      title: "Career Counselling Workshop",
+      description: "Nurturing young aspirations in North East India through a workshop dispelling myths, providing clarity, and advancing awareness about quality education in eight districts of Assam.",
+      image: "CC Workshop.jpg",
       link: "/events/north-east-festival-2023"
     },
     {
       title: "North-East Food Fest 2023",
-      description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight-4.jpg",
+      description: "A harmonious blend of diverse dishes and traditional attires at the collaborative 3-day event with Shaurya, showcasing cultural exploration by talented forum members.",
+      image: "/highlights/highlight-5.jpg",
       link: "/events/north-east-festival-2023"
     },
     {
-      title: "Career Counselling 2023",
-      description: "We organized a festival to celebrate the culture and heritage of the North East. The festival featured traditional music, dance, and food from the region, as well as workshops and talks on environmental issues.",
-      image: "/highlights/highlight-5.jpg"
+
+      title: "Career Counselling Session 2023",
+      description: "IIT Kharagpur's annual sessions featuring alumni, professors, and industry representatives, focusing on Career Development Counseling and offering valuable insights for a rewarding professional journey.",
+      image: "CC Session.jpg"
     },
   ]
 
