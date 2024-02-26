@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Event1.module.css";
-import HighlightCard from "../../../MyComponents/Home/HighlightCard";
-import Testimonials from "../../../MyComponents/Testimonials";
 import Tilt from "react-parallax-tilt";
 
-const Event1 = () => {
+const Event1 = (props) => {
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div id="about-us" className={styles.container}>
       {/* Event Description */}
@@ -12,13 +17,8 @@ const Event1 = () => {
       <div className={styles.societyDescription}>
         <div className={styles.container1}>
           <div className={styles.left}>
-            <h1 className={styles.heading}>North East Festival 2023</h1>
-            <p>
-              We organize a diverse set of events aimed at all round development
-              of the North Eastern students at IIT Kharagpur and promoting and
-              showcasing North Eastern culture and tradition. Take a glimpse at
-              our work so far below.
-            </p>
+            <h1 className={styles.heading}>{props.heading}</h1>
+            <p>{props.description1}</p>
           </div>
           <div className={styles.right}>
             <div className={styles.subright}>
@@ -50,19 +50,60 @@ const Event1 = () => {
 
         <div className={styles.container1}>
           <div className={styles.left}>
-            <h1 className={styles.heading}>North East Festival 2023</h1>
-            <p>
-              We organize a diverse set of events aimed at all round development
-              of the North Eastern students at IIT Kharagpur and promoting and
-              showcasing North Eastern culture and tradition. Take a glimpse at
-              our work so far below.
-            </p>
+            <p>{props.description2}</p>
           </div>
           <div className={styles.right}>
             <div className={styles.subright1}>
               <p className={styles.heading}>Other events </p>
-              <div className={styles.others}>Career Councelling Session</div>
-              <div className={styles.others}>Food Fest</div>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/north-east-festival"
+              >
+                North East Festival
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/freshers"
+              >
+                Freshers
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/farewell"
+              >
+                Farewell
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/food-stall"
+              >
+                Foodstall
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/foundation-day"
+              >
+                Foundation Day
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/career-counselling"
+              >
+                Career Counselling
+              </Link>
+              <Link
+                className={styles.others}
+                onClick={handleClick}
+                to="/events/career-counselling-workshop"
+              >
+                Career Counselling Workshop
+              </Link>
             </div>
           </div>
         </div>
