@@ -31,6 +31,23 @@ import styles from "./Navbar.module.css";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
 
+const navLinks = {
+  desktop: [
+    {name: "Home", link: "/home"},
+    // {name: "About Us", link: "/about-us"},
+    {name: "Team", link: "/teams"},
+    {name: "Events", link: "/events"},
+    {name: "Partnerships", link: "/partnerships"},
+  ],
+  mobile: [
+    {name: "Home", link: "/home"},
+    // {name: "About Us", link: "/about-us"},
+    {name: "Team", link: "/teams"},
+    {name: "Events", link: "/events"},
+    {name: "Partnerships", link: "/partnerships"},
+  ]
+}
+
 const Navbar = () => {
 
   const [showMenuItems,setShowMenuItems] = useState(false);
@@ -46,7 +63,18 @@ const Navbar = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.links}>
-          <div>
+          {
+            navLinks.desktop.map((link, index) => {
+              return (
+                <div key={index}>
+                  <Link className={styles.link} to={link.link}>
+                    <p>{link.name}</p>
+                  </Link>
+                </div>
+              );
+            })
+          }
+          {/* <div>
             <Link className={styles.link} to="/home">
               <p>Home</p>
             </Link>
@@ -65,7 +93,7 @@ const Navbar = () => {
             <Link className={styles.link} to="/events">
               <p>Events</p>
             </Link>
-          </div>
+          </div> */}
           {/* <div>
             <Link className={styles.link} to="/Alumni">
               <p>Alumni</p>
@@ -85,10 +113,19 @@ const Navbar = () => {
           </a>
         </div>
         <div className={`${styles.mobileMenu} ${showMenuItems && styles.opened}`} >
-          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/">Home</Link>
+          {
+            navLinks.mobile.map((link, index) => {
+              return (
+                <Link key={index} className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to={link.link}>
+                  {link.name}
+                </Link>
+              );
+            })
+          }
+          {/* <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/">Home</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/AboutUs">About Us</Link>
           <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Teams">Team</Link>
-          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Events">Events</Link>
+          <Link className={styles.mobilelinks} onClick={()=>setShowMenuItems(false)} to="/Events">Events</Link> */}
         </div>
       </div>
     </div>

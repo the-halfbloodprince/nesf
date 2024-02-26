@@ -93,6 +93,8 @@
 .card p {
     font-size: 1.5rem;
     font-weight: 600;
+    width: 30ch;
+    text-wrap: wrap;
 }
 
 @media (max-width: 600px) {
