@@ -14,24 +14,24 @@ import InfiniteMovingCards from './InfiniteMovingCards';
 
 const testimonials = [
   {
+    quote: "NESF has transformed the life of my Students. They have become more confident and have developed a sense of belongingness.",
+    name: "Khanindra Pathak",
+    title: "Professor, IIT Kharagpur"
+  },
+  {
+    quote: "Being part of NESF during my time at IIT Kharagpur, has been an enriching experience. I have made friends for life and have grown as a person.",
+    name: "Babul Pegu",
+    title: "Former President, NESF"
+  },
+  {
+    quote: "Leading NESF is an honor. Together we champion unity and empower voices, forging a brighter future.",
+    name: "Thokchom Preety Devi",
+    title: "President, NESF"
+  },
+  {
     quote: "I am so grateful for the support and guidance I received from NESF. It has helped me grow as a person and as a professional.",
     name: "Benjamin Doley",
-    title: "Main maanuh"
-  },
-  {
-    quote: "I am so happy for the support and guidance I received from NESF. It has helped me grow as a person and as a professional.",
-    name: "Benjamin Doley 2",
-    title: "Main maanuh 2"
-  },
-  {
-    quote: "I am so excited for the support and guidance I received from NESF. It has helped me grow as a person and as a professional.",
-    name: "Benjamin Doley 3",
-    title: "Main maanuh 3"
-  },
-  {
-    quote: "I am so excited for the support and guidance I received from NESF. It has helped me grow as a person and as a professional.",
-    name: "Benjamin Doley 4",
-    title: "Main maanuh 4"
+    title: "Executive Head, NESF"
   },
 ]
 
