@@ -5,6 +5,7 @@ import SSCOM from './SSCOM.js';
 import MediaPublicitySeniorCoordinator from './MediaPublicitySeniorCoordinator.js';
 import StudentsWelfareSeniorCoordinator from './StudentsWelfareSeniorCoordinator.js';
 import EventsSeniorCoordinator from './EventsSeniorCoordinator.js';
+import FinanceSeniorCoordinator from './FinanceSeniorCoordinators.js';
 import Governors from './Governor.js';
 import ExecutiveHeads from './ExecutiveHead.js';
 import MediaPublicityHead from './MediaPublicityHead.js';
@@ -29,6 +30,7 @@ const Teams = () => {
                 <MediaPublicitySeniorCoordinator/>
                 <StudentsWelfareSeniorCoordinator/>
                 <EventsSeniorCoordinator/>
+                <FinanceSeniorCoordinator/>
                 <ExecutiveHeads/>
                 <MediaPublicityHead/>
                 <FinanceHead/>

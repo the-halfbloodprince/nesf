@@ -18,6 +18,7 @@ const AboutUs = () => {
       link: "/events/north-east-festival-2023"
     },
     {
+
       title: "Career Counselling Workshop",
       description: "Nurturing young aspirations in North East India through a workshop dispelling myths, providing clarity, and advancing awareness about quality education in eight districts of Assam.",
       image: "CC Workshop.jpg",
@@ -30,6 +31,7 @@ const AboutUs = () => {
       link: "/events/north-east-festival-2023"
     },
     {
+
       title: "Career Counselling Session 2023",
       description: "IIT Kharagpur's annual sessions featuring alumni, professors, and industry representatives, focusing on Career Development Counseling and offering valuable insights for a rewarding professional journey.",
       image: "CC Session.jpg"
@@ -59,7 +61,7 @@ const AboutUs = () => {
 
       {/* Work Highlights */}
       <div className={styles.workHighlight}>
-        <h3 className={styles.heading}>Here's a glimpse of the work so far</h3>
+        <h1 className={styles.heading}>Here's a glimpse of the work so far</h1>
         <div className={styles.workHighlight__content}>
           {
             workHighlights.map((highlight,index) => (
