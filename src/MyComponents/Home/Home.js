@@ -5,6 +5,7 @@ import Slider from './Slider/Slider.js'
 import Carousal from '../Carousal.js';
 import AboutUs from './AboutUs.js';
 import PreviousSponsorsCarousal from '../PreviousSponsorsCarousal.js';
+import NorthEastFestival2024Banner from '../NorthEastFestival2024Banner.js';
 
 const images = [
     // '/highlights/highlight-1.png',
@@ -63,6 +64,7 @@ const Home = () => {
                     <Map/>
                 </div> */}
             </div>
+            <NorthEastFestival2024Banner />
             <PreviousSponsorsCarousal />
             <AboutUs />
             {/* <div className={styles.slider}>

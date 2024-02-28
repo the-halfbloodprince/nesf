@@ -1,0 +1,130 @@
+@property --gradient-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  background: #111;
+  margin: 2rem 0;
+  translate: -2rem;
+
+  /* centering */
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.banner {
+  --gradient-color-1: #00DBDE;
+  --gradient-color-2: #FC00FF;
+
+  width: 60%;
+  height: 50%;
+  /* aspect-ratio: 3/2; */
+  background: url('/public/highlights/highlight-2.jpg');
+  background-size: cover;
+  border-radius: var(--border-radius);
+  position: relative;
+
+  display: grid;
+  place-items: center;
+}
+
+.banner::before,
+.banner::after {
+  content: '';
+  position: absolute;
+  inset: -.5rem;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--gradient-angle), 
+    var(--gradient-color-1), 
+    var(--gradient-color-2),
+    var(--gradient-color-1) 
+  );
+
+  z-index: -1;
+  animation: animate-grad 5s linear infinite;
+}
+
+.banner::after {
+  filter: blur(4rem);
+}
+
+@keyframes animate-grad {
+  from { --gradient-angle: 0deg; }
+  to { --gradient-angle: 360deg; }
+}
+
+.title {
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px var(--gradient-color-2);
+}
+
+.marqueeText {
+  --gap: 1rem;
+
+  position: absolute;
+  width: max-content;
+  /* height: 5rem; */
+  /* padding: 1rem 0; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--gap);
+  height: 5rem;
+  background: red;
+  color: white;
+  font-size: 1.4rem;
+  font-family: var(--stylized-body-font-2);
+}
+
+.marqueeText:first-child {
+  top: 0;
+  left: 0;
+  animation: marquee-ltr 20s linear infinite;
+}
+
+.marqueeText:nth-child(2) {
+  bottom: 0;
+  left: 0;
+  animation: marquee-ltr 20s linear infinite;
+}
+
+.marqueeText span:last-child {
+  margin-right: var(--gap);
+}
+
+@keyframes marquee-ltr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner {
+    width: 80%;
+    height: 50%;
+  }
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 80%;
+    height: 50%;
+  }
+  .title {
+    font-size: 3rem;
+    text-wrap: balance;
+  }
+}
