@@ -3,6 +3,7 @@ import './Events.css'
 import fest24 from './NEFest24.png';
 import { EventCard } from './EventCard';
 import { useNavigate } from 'react-router-dom';
+import NorthEastFestival2024Banner from '../NorthEastFestival2024Banner';
 
 function Events() {
 
@@ -57,7 +58,7 @@ function Events() {
 
   return (
     <div className='events'>
-        <div className="events_card">
+        {/* <div className="events_card">
             <img className='nefest24img' src="Fest24.jpg" alt="" />
             <div className="event_content">
                 <div className="green_box">
@@ -74,7 +75,8 @@ function Events() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
+        <NorthEastFestival2024Banner />
         <div className="previous_events">
             <div className="previous_events_title">
                 Our Previous Events
