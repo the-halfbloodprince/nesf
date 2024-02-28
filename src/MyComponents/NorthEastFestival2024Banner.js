@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './NorthEastFestival2024Banner.module.css'
+import Tilt from 'react-parallax-tilt'
 
 const NorthEastFestival2024Banner = () => {
   return (
@@ -10,9 +11,11 @@ const NorthEastFestival2024Banner = () => {
       <div className={styles.marqueeText}>
         { Array.from({ length: 20 }).map((_, index) => <span>{'Coming Soon ✨'}</span>) }
       </div>
-      <div className={styles.banner}>
-        <h1 className={styles.title}>North East Festival 2024</h1>
-      </div>
+      <Tilt className={styles.tiltContainer} glareEnable={true}>
+        <div className={styles.banner}>
+          <h1 className={styles.title}>North East Festival 2024</h1>
+        </div>
+      </Tilt>
     </div>
   )
 }
