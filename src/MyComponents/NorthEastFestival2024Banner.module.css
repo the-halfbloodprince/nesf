@@ -66,6 +66,10 @@
 }
 
 .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
   color: white;
   font-size: 4rem;
   /* color: transparent; */
@@ -75,9 +79,9 @@
   text-shadow: 3px 3px var(--gradient-color-2);
 }
 
-.highlighted {
+/* .highlighted {
   color: var(--gradient-color-2);
-}
+} */
 
 .marqueeText {
   --gap: 1rem;

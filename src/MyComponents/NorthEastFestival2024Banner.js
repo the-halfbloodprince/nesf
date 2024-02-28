@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './NorthEastFestival2024Banner.module.css'
 import Tilt from 'react-parallax-tilt'
+import { SparklesCore } from './AceternitySparkles'
 
 const NorthEastFestival2024Banner = () => {
   return (
@@ -13,6 +14,15 @@ const NorthEastFestival2024Banner = () => {
       </div>
       <Tilt className={styles.tiltContainer} glareEnable={true}>
         <div className={styles.banner}>
+          <SparklesCore
+            id="tsparticlesfullpage"
+            background="transparent"
+            minSize={0.6}
+            maxSize={2.4}
+            particleDensity={200}
+            className="absolute w-full h-full"
+            particleColor="#FFFFFF"
+           />
           <h1 className={styles.title}>North East Festival <span className={styles.highlighted}>2024</span></h1>
         </div>
       </Tilt>
