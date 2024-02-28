@@ -13,7 +13,7 @@ const NorthEastFestival2024Banner = () => {
       </div>
       <Tilt className={styles.tiltContainer} glareEnable={true}>
         <div className={styles.banner}>
-          <h1 className={styles.title}>North East Festival 2024</h1>
+          <h1 className={styles.title}>North East Festival <span className={styles.highlighted}>2024</span></h1>
         </div>
       </Tilt>
     </div>

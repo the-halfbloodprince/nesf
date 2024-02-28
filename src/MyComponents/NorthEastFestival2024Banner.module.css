@@ -75,6 +75,10 @@
   text-shadow: 3px 3px var(--gradient-color-2);
 }
 
+.highlighted {
+  color: var(--gradient-color-2);
+}
+
 .marqueeText {
   --gap: 1rem;
 
