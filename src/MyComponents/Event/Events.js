@@ -2,44 +2,63 @@ import React from 'react'
 import './Events.css'
 import fest24 from './NEFest24.png';
 import { EventCard } from './EventCard';
+import { useNavigate } from 'react-router-dom';
 
 function Events() {
+
+    const navigate=useNavigate();
 
     const events=[
         {
             title:"North East Festival 2023",
-            description:"IIT Kharagpur's annual celebration of North East India's diversity, uniting through captivating performances, inspiring speeches, and vibrant showcases, fostering cultural understanding."
+            description:"IIT Kharagpur's annual celebration of North East India's diversity, uniting through captivating performances, inspiring speeches, and vibrant showcases, fostering cultural understanding.",
+            image:fest24,
+            greenbox1:"5K+ footfall",
+            greenbox2:"10+ cultural performances",
+            site:"/events/north-east-festival"
         },
         {
             title:"Foundation Day",
-            description:"Embracing growth with spirited performances, engaging activities, esteemed guests, and a shared dinner, strengthening the vibrant bonds within the North East Students' Forum community"
+            description:"Embracing growth with spirited performances, engaging activities, esteemed guests, and a shared dinner, strengthening the vibrant bonds within the North East Students' Forum community",
+            image:"Foundation Day.jpg",
+            site:"/events/foundation-day"
         },
         {
             title:"Food Stall",
-            description:"A harmonious blend of diverse dishes and traditional attires at the collaborative 3-day event with Shaurya, showcasing cultural exploration by talented forum members."
+            description:"A harmonious blend of diverse dishes and traditional attires at the collaborative 3-day event with Shaurya, showcasing cultural exploration by talented forum members.",
+            image:"highlights/highlight-5.jpg",
+            site:"/events/food-stall"
         },
         {
             title:"Freshers",
-            description:"Welcoming new students with vibrancy, dynamic performances, a Mr. and Ms. Freshers' competition, and uplifting messages from esteemed professors, setting the tone for growth and friendship"
+            description:"Welcoming new students with vibrancy, dynamic performances, a Mr. and Ms. Freshers' competition, and uplifting messages from esteemed professors, setting the tone for growth and friendship",
+            image:"Freshers.jpg",
+            site:"/events/freshers"
         },
         {
             title:"Farewell",
-            description:"A cherished annual gala bidding adieu to graduating students, uniting through heartwarming performances, thoughtful gifts, shared experiences, and a symbolic communal dinner."
+            description:"A cherished annual gala bidding adieu to graduating students, uniting through heartwarming performances, thoughtful gifts, shared experiences, and a symbolic communal dinner.",
+            image:"Farewell.jpg",
+            site:"/events/farewell"
         },
         {
             title:"Career Counselling Session",
-            description:"IIT Kharagpur's annual sessions featuring alumni, professors, and industry representatives, focusing on Career Development Counseling and offering valuable insights for a rewarding professional journey."
+            description:"IIT Kharagpur's annual sessions featuring alumni, professors, and industry representatives, focusing on Career Development Counseling and offering valuable insights for a rewarding professional journey.",
+            image:"CC Session.jpg",
+            site:"/events/career-counselling"
         },
         {
             title:"Career Counselling Workshop",
-            description:"Nurturing young aspirations in North East India through a workshop dispelling myths, providing clarity, and advancing awareness about quality education in eight districts of Assam."
+            description:"Nurturing young aspirations in North East India through a workshop dispelling myths, providing clarity, and advancing awareness about quality education in eight districts of Assam.",
+            image:"CC Workshop.jpg",
+            site:"/events/career-counselling-workshop"
         }
     ]
 
   return (
     <div className='events'>
         <div className="events_card">
-            <img className='nefest24img' src={fest24} alt="" />
+            <img className='nefest24img' src="Fest24.jpg" alt="" />
             <div className="event_content">
                 <div className="green_box">
                     <div className="green_box_text">
@@ -47,7 +66,7 @@ function Events() {
                     </div>
                 </div>
                 <div className="event_content_text">
-                    North East Festival 2024
+                    North-East Festival 2024
                 </div>
                 <div className="coming_soon">
                     <div className="coming_soon_text">
@@ -66,7 +85,7 @@ function Events() {
                 </p>
             </div>
         </div>
-        <EventCard event={events[0]} present={1}/>
+        <EventCard event={events[0]} present={1} onClick={()=>navigate('/events/north-east-festival')}/>
         <div className="eventpair">
             <EventCard event={events[1]} present={0}/>
             <EventCard event={events[2]} present={0}/>
