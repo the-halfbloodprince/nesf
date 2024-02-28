@@ -5,6 +5,7 @@ import Testimonials from '../Testimonials'
 import { sponsors } from '../../data/sponsors'
 import InfiniteMovingCards from '../InfiniteMovingCards'
 import Tilt from 'react-parallax-tilt'
+import PreviousSponsorsCarousal from '../PreviousSponsorsCarousal'
 
 const AboutUs = () => {
 
@@ -38,11 +39,11 @@ const AboutUs = () => {
 
   return (
     <div id='about-us' className={styles.container}>
-      {/* <h1 className={styles.heading}>About Us</h1> */}
+      {/* <h1 className="heading">About Us</h1> */}
       {/* TODO: CHANGE WITH ACTUAL CONTENT */}
 
       {/* Society Description */}
-      <h1 className={styles.heading}>About NESF</h1>
+      <h1 className="heading">About NESF</h1>
       <div className={styles.societyDescription}>
         <p>
         Our society is dedicated to fostering a sense of community and support among students hailing from North East India who are pursuing their education at IIT Kharagpur. We aim to create a familial atmosphere where every member feels comfortable and safe, offering a supportive network to navigate through college life.
@@ -59,7 +60,7 @@ const AboutUs = () => {
 
       {/* Work Highlights */}
       <div className={styles.workHighlight}>
-        <h1 className={styles.heading}>Here's a glimpse of the work so far</h1>
+        <h1 className="heading">Here's a glimpse of the work so far</h1>
         <div className={styles.workHighlight__content}>
           {
             workHighlights.map((highlight,index) => (
@@ -67,16 +68,6 @@ const AboutUs = () => {
             ))
           }
         </div>
-      </div>
-
-      {/* Previous Partnerships */}
-      <div className={styles.partnerships}>
-          <h2 className={styles.heading}>Partnerships</h2>
-          <InfiniteMovingCards items={sponsors.map(sponsor => (
-            <div className={styles.sponsor}>
-              <img src={`/partners/${sponsor.image}`} alt={sponsor.name} />
-            </div>
-          ))} reverse={true} gap='large' />
       </div>
 
       {/* Testimonials */}
