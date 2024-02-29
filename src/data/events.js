@@ -65,13 +65,9 @@ export const events = [
     short_description:"Embracing growth with spirited performances, engaging activities, esteemed guests, and a shared dinner, strengthening the vibrant bonds within the North East Students' Forum community",
     description: [
       "On the 29th of October each year, the North East Students' Forum, IIT Kharagpur,  joyously celebrates its Foundation Day, marking a year of growth and camaraderie. Last year's inaugural celebration marked a significant milestone as students gathered to commemorate the forum's first year of existence.",
-      "During this festive occasion, students showcase their talents through spirited singing, dancing performances,  fostering unity among members. Engaging activities such as quizzes and games serve as avenues for students to forge deeper connections and strengthen bonds within the forum. Distinguished guests, including professors and esteemed alumni are invited to partake in the festivities as chief guests. Their presence adds a touch of wisdom and experience to the occasion, as they share valuable lessons and insights with the students, inspiring and guiding them on their academic and personal journeys. The Foundation Day Celebration not only honors the establishment of the forum but also serves as a cherished opportunity for students to come together, celebrate their achievements, and strengthen their bonds within the vibrant community of the North East Students' Forum. The Foundation Day Celebration culminates with a shared dinner, providing a delightful opportunity for all attendees to further bond and celebrate the vibrant community of the North East Students' Forum."
+      "During this festive occasion, students showcase their talents through spirited singing, dancing performances,  fostering unity among members. Engaging activities such as quizzes and games serve as avenues for students to forge deeper connections and strengthen bonds within the forum. Distinguished guests, including professors and esteemed alumni are invited to partake in the festivities as chief guests. Their presence adds a touch of wisdom and experience to the occasion, as they share valuable lessons and insights with the students, inspiring and guiding them on their academic and personal journeys. The Foundation Day Celebration not only honors the establishment of the forum but also serves as a cherished opportunity for students to come together, celebrate their achievements, and strengthen their bonds within the vibrant community of the North East Students' Forum. The Foundation Day Celebration culminates with a shared dinner, providing a delightful opportunity for all attendees to further bond and celebrate the vibrant community of the North East Students' Forum.",
     ],
-    highlights: [
-      "5K+ footfalls",
-      "15K+ performances",
-      "20K+ something",
-    ],
+    highlights: ["5K+ footfalls", "15K+ performances", "20K+ something"],
     images: [
       "foundationday1.jpg",
       "foundationday2.jpg",
@@ -89,8 +85,8 @@ export const events = [
     ],
     highlights: [
       "5K+ footfalls",
-      "15K+ performances",
-      "20K+ something",
+      "400+ dishes served",
+      "3 days of engagement",
     ],
     images: [
       "foodstall1.jpg",
@@ -140,5 +136,4 @@ export const events = [
     ],
     cover_image: "careercounsellingworkshop1.jpg",
   },
-  
-]
+];

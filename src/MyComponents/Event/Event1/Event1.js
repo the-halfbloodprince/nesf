@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import styles from "./Event1.module.css";
 import Tilt from "react-parallax-tilt";
 
+// import image from "../../../../public/Events/festival/festival1.jpg"
+
 import { events } from '../../../data/events';
 
 const Event1 = (props) => {
@@ -58,13 +60,13 @@ const Event1 = (props) => {
 
         <div className={styles.photos}>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src="/highlights/highlight-4.jpg" alt="highlight" />
+            <img src={event.images[0]} alt="highlight" />
           </Tilt>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src="/highlights/highlight-2.jpg" alt="highlight" />
+            <img src={event.images[1]} alt="highlight" />
           </Tilt>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src="/highlights/highlight-3.jpg" alt="highlight" />
+            <img src={event.images[2]} alt="highlight" />
           </Tilt>
         </div>
         {/* <div className={styles.photos}>
