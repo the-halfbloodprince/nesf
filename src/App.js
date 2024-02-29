@@ -63,7 +63,7 @@ function App() {
           />
           <Route
             exact
-            path="/events/career-counselling"
+            path="/events/career-counselling-session"
             element={<CareerCounselling />}
           />
           <Route

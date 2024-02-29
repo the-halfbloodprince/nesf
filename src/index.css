@@ -27,6 +27,9 @@
   --purple:#6A26CD;
   --grey:#888;
 
+  --bright-blue: #00DBDE;
+  --bright-pink: #FC00FF;
+
   --primary-color: var(--midnight-blue);
 
   /* TODO: ADD FONTS AND MORE COLORS */
@@ -50,6 +53,10 @@ body {
   /* background: var(--midnight-blue); */
   /* color: var(--mimi-pink); */
   color: var(--pomp-and-power);
+}
+
+p {
+  line-height: 1.5em;
 }
 
 code {
