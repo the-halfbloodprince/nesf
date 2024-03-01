@@ -13,24 +13,24 @@ If issues in `npm i` then delete `package-lock.json`
   - [ ] 404 page 
   - [x] Improve Navbar + responsiveness
   - [x] Improve Footer + responsiveness
-  - [ ] Uniform colors
-  - [ ] Uniform fonts
+  - [x] Uniform colors
+  - [x] Uniform fonts
 - Home Page
   - [x] Carousal
   - [ ] Optimize carousal images
-  - [ ] **About Us** <- currently in progress
-  - [ ] **Events Highlights** <- currently in progress
+  - [ ] **About Us**
+  - [x] **Events Highlights**
   - [ ] **Previous Partnerships** <- currently in progress
-  - [ ] **Testimonials** <- currently in progress
+  - [x] **Testimonials**
 - Improve Teams Page
   - [x] Improve fonts and colors
   - [ ] Optimize images
   - [ ] Crop images - needs to be outsourced
   - [ ] Add any fun effect on the circles, like scaling and shadow etc,
 - Events Page
-  - [ ] Add a central highlight of events
-  - [ ] Collect info about all our events (names, few selected images, and descriptions or articles)
-  - [ ] Add all other events and their details in separate pages
+  - [x] Add a central highlight of events
+  - [x] Collect info about all our events (names, few selected images, and descriptions or articles)
+  - [x] Add all other events and their details in separate pages
   - [ ] Add gallery for each page
 
 ## Changes for later
