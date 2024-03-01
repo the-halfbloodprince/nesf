@@ -18,6 +18,8 @@
   display: grid;
   place-items: center;
   position: relative;
+
+  overflow-x: hidden;
 }
 
 /* .tiltContainer {
