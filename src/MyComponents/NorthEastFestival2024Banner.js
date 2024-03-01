@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './NorthEastFestival2024Banner.module.css'
 import Tilt from 'react-parallax-tilt'
 import { SparklesCore } from './AceternitySparkles'
 
 const NorthEastFestival2024Banner = () => {
+
+  useEffect(() => {
+    const setVW = () => document.documentElement.style.setProperty('--vw', document.documentElement.clientWidth / 100 + 'px')
+    setVW()
+    const lnr = window.addEventListener('resize', setVW)
+    return () => window.removeEventListener('resize', lnr)
+  }, [])
+
   return (
     <div className={styles.container}>
       <div className={styles.marqueeText}>

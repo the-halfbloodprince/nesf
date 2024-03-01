@@ -8,7 +8,7 @@
   --gradient-color-1: var(--bright-blue);
   --gradient-color-2: var(--bright-pink);
 
-  width: 100vw;
+  width: calc(100 * var(--vw));
   height: 95vh;
   background: #111;
   margin: 2rem 0;
@@ -32,7 +32,7 @@
   width: 60vw;
   height: 60vh;
   /* aspect-ratio: 3/2; */
-  background: url('/public/events/northeastfestival20241.png');
+  background: url('../../public/Events/northeastfestival20241.png');
   /* background-position: center bottom; */
   background-size: cover;
   border-radius: var(--border-radius);
@@ -143,6 +143,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    height: 85vh;
+  }
   .banner {
     width: 80vw;
     height: 50vh;
