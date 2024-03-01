@@ -73,10 +73,10 @@
   padding: .5rem 1rem;
   font-weight: 600;
   font-size: .75rem;
-  background: var(--primary-color);
+  background: #6a26cd;
   color: white;
   border-radius: var(--border-radius);
-  border: solid 2px white;
+  /* border: solid 2px white; */
   /* box-shadow: 2px 2px white; */
 }
 

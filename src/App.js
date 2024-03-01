@@ -59,25 +59,25 @@ function App() {
           <Route
             exact
             path="/events/north-east-festival"
-            element={<NEFest />}
+            element={<Event1 />}
           />
           <Route
             exact
             path="/events/career-counselling-session"
-            element={<CareerCounselling />}
+            element={<Event1 />}
           />
           <Route
             exact
             path="/events/career-counselling-workshop"
-            element={<CareerCounsellingWorkshop />}
+            element={<Event1 />}
           />
-          <Route exact path="/events/freshers" element={<Freshers />} />
-          <Route exact path="/events/farewell" element={<Farewell />} />
-          <Route exact path="/events/food-stall" element={<FoodStall />} />
+          <Route exact path="/events/freshers" element={<Event1 />} />
+          <Route exact path="/events/farewell" element={<Event1 />} />
+          <Route exact path="/events/food-stall" element={<Event1/>} />
           <Route
             exact
             path="/events/foundation-day"
-            element={<FoundationDay />}
+            element={<Event1 />}
           />
           <Route exact path="/partnerships" element={<Partnerships />} />
           {/* TODO: change this to visit a 404 page (may cause confusion otherwise) */}
