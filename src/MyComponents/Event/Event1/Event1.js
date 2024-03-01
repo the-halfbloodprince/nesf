@@ -60,13 +60,13 @@ const Event1 = (props) => {
 
         <div className={styles.photos}>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src={event.images[0]} alt="highlight" />
+            <img src={`/events/${event.images[0]}`} alt="highlight" />
           </Tilt>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src={event.images[1]} alt="highlight" />
+            <img src={`/events/${event.images[1]}`} alt="highlight" />
           </Tilt>
           <Tilt className={styles.photo} glareEnable={true}>
-            <img src={event.images[2]} alt="highlight" />
+            <img src={`/events/${event.images[2]}`} alt="highlight" />
           </Tilt>
         </div>
         {/* <div className={styles.photos}>
@@ -88,7 +88,22 @@ const Event1 = (props) => {
           <div className={styles.right}>
             <p className={styles.heading}>Other events </p>
             <div className={styles.links}>
-              <Link
+              {
+                events.map(event => {
+                  if (event.slug !== pathName) {
+                    return (
+                      <Link
+                        className={styles.others}
+                        onClick={handleClick}
+                        to={`/events/${event.slug}`}
+                      >
+                        {event.name}
+                      </Link>
+                    )
+                  }
+                })
+              }
+              {/* <Link
                 className={styles.others}
                 onClick={handleClick}
                 to="/events/north-east-festival"
@@ -136,7 +151,7 @@ const Event1 = (props) => {
                 to="/events/career-counselling-workshop"
               >
                 Career Counselling Workshop
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
