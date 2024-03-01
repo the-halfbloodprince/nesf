@@ -13,11 +13,11 @@ export const events = [
       "10+ special guests",
     ],
     images: [
-      "northeastfestival20231.jpg",
-      "northeastfestival20232.png",
-      "northeastfestival20233.jpg"
+      "festival/festival1.jpg",
+      "festival/festival2.jpg",
+      "festival/festival3.jpg"
     ],
-    cover_image: "northeastfestival20232.png"
+    cover_image: "festival/festival1.jpg"
   },
   {
     name: "Farewell",
@@ -33,11 +33,11 @@ export const events = [
       // "15+ someth",
     ],
     images: [
-      "farewell1.jpg",
-      "farewell2.jpg",
-      "farewell3.jpg"
+      "farewell/farewell1.jpg",
+      "farewell/farewell2.jpg",
+      "farewell/farewell3.jpg"
     ],
-    cover_image: "farewell1.jpg"
+    cover_image: "farewell/farewell1.jpg"
   },
   {
     name: "Freshers",
@@ -53,11 +53,11 @@ export const events = [
       "10+ years of exciting beginnings",
     ],
     images: [
-      "freshers1.jpg",
-      "freshers2.jpg",
-      "freshers3.jpg"
+      "freshers/freshers1.jpg",
+      "freshers/freshers2.jpg",
+      "freshers/freshers3.jpg"
     ],
-    cover_image: "freshers1.jpg",
+    cover_image: "freshers/freshers1.jpg",
   },
   {
     name: "Foundation Day",
@@ -69,11 +69,11 @@ export const events = [
     ],
     highlights: ["5K+ footfalls", "15K+ performances", "20K+ something"],
     images: [
-      "foundationday1.jpg",
-      "foundationday2.jpg",
-      "foundationday3.jpg",
+      "foundation_day/foundation1.jpg",
+      "foundation_day/foundation2.jpg",
+      "foundation_day/foundation3.jpg",
     ],
-    cover_image: "foundationday1.jpg"
+    cover_image: "foundation_day/foundation1.jpg"
   },
   {
     name: "Food Stall",
@@ -89,11 +89,11 @@ export const events = [
       "3 days of engagement",
     ],
     images: [
-      "foodstall1.jpg",
-      "foodstall2.jpg",
-      "foodstall3.jpg",
+      "foodstall/foodstall1.jpg",
+      "foodstall/foodstall2.jpg",
+      "foodstall/foodstall3.jpg",
     ],
-    cover_image: "foodstall1.jpg"
+    cover_image: "foodstall/foodstall1.jpg"
   },
   {
     name: "Career Counselling Session",
@@ -109,11 +109,11 @@ export const events = [
       "10+ alumni speakers",
     ],
     images: [
-      "careercounsellingsession1.jpg",
-      "careercounsellingsession2.jpg",
-      "careercounsellingsession3.jpg",
+      "counselling_session/counselling1.jpg",
+      "counselling_session/counselling2.jpg",
+      "counselling_session/counselling3.jpg",
     ],
-    cover_image: "careercounsellingsession1.jpg",
+    cover_image: "counselling_session/counselling1.jpg",
   },
   {
     name: "Career Counselling Workshop",
@@ -130,10 +130,10 @@ export const events = [
       "8 districts covered in Assam",
     ],
     images: [
-      "careercounsellingworkshop1.jpg",
-      "careercounsellingworkshop2.jpg",
-      "careercounsellingworkshop3.jpg"
+      "counselling_workshop/workshop1.jpg",
+      "counselling_workshop/workshop2.jpg",
+      "counselling_workshop/workshop3.jpg"
     ],
-    cover_image: "careercounsellingworkshop1.jpg",
+    cover_image: "counselling_workshop/workshop1.jpg",
   },
 ];
