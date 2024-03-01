@@ -5,8 +5,8 @@
 }
 
 .container {
-  --gradient-color-1: #00DBDE;
-  --gradient-color-2: #FC00FF;
+  --gradient-color-1: var(--bright-blue);
+  --gradient-color-2: var(--bright-pink);
 
   width: 100vw;
   height: 95vh;
@@ -30,7 +30,7 @@
   width: 60vw;
   height: 60vh;
   /* aspect-ratio: 3/2; */
-  background: url('/public/highlights/highlight-2.jpg');
+  background: url('/public/events/northeastfestival20241.png');
   /* background-position: center bottom; */
   background-size: cover;
   border-radius: var(--border-radius);
