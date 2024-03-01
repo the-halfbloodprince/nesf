@@ -33,7 +33,7 @@ const Event1 = (props) => {
       <div className={styles.societyDescription}>
         <div className={styles.container1}>
           <div className={styles.left}>
-            <h1 className={styles.heading}>{event.name}</h1>
+            <h1 className="heading">{event.name}</h1>
             <p>{event.description[0]}</p>
           </div>
           {/* <div className={styles.right}>
@@ -86,8 +86,8 @@ const Event1 = (props) => {
             <p>{event.description[1]}</p>
           </div>
           <div className={styles.right}>
+            <p className={styles.heading}>Other events </p>
             <div className={styles.links}>
-              <p className={styles.heading}>Other events </p>
               <Link
                 className={styles.others}
                 onClick={handleClick}

@@ -53,6 +53,7 @@ body {
   /* background: var(--midnight-blue); */
   /* color: var(--mimi-pink); */
   color: var(--pomp-and-power);
+  container-type: inline-size;
 }
 
 p {

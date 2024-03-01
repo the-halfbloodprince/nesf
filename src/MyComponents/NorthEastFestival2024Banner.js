@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './NorthEastFestival2024Banner.module.css'
 import Tilt from 'react-parallax-tilt'
 import { SparklesCore } from './AceternitySparkles'
 
 const NorthEastFestival2024Banner = () => {
+
   return (
     <div className={styles.container}>
       <div className={styles.marqueeText}>
@@ -14,6 +15,7 @@ const NorthEastFestival2024Banner = () => {
       </div>
       <Tilt className={styles.tiltContainer} glareEnable={true}>
         <div className={styles.banner}>
+          <img src="/events/northeastfestival20241.png" alt="" />
           <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"

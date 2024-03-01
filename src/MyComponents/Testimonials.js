@@ -39,7 +39,7 @@ const Testimonials = (props) => {
     
   return (
     <div className={styles.testimonials}>
-        <h1 className={styles.heading}>What do people say about us?</h1>
+        <h1 className="heading">What do people say about us?</h1>
         <InfiniteMovingCards items={testimonials.map(testimonial => <TestimonialCard testimonial={testimonial} />)} />
     </div>
   )

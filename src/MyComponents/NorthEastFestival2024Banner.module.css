@@ -8,7 +8,7 @@
   --gradient-color-1: var(--bright-blue);
   --gradient-color-2: var(--bright-pink);
 
-  width: 100vw;
+  width: calc(100 * var(--vw));
   height: 95vh;
   background: #111;
   margin: 2rem 0;
@@ -18,6 +18,8 @@
   display: grid;
   place-items: center;
   position: relative;
+
+  overflow-x: hidden;
 }
 
 /* .tiltContainer {
@@ -30,7 +32,7 @@
   width: 60vw;
   height: 60vh;
   /* aspect-ratio: 3/2; */
-  background: url('/public/events/northeastfestival20241.png');
+  /* background: url('../../public/Events/northeastfestival20241.png'); */
   /* background-position: center bottom; */
   background-size: cover;
   border-radius: var(--border-radius);
@@ -38,6 +40,13 @@
 
   display: grid;
   place-items: center;
+}
+
+.banner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .banner::before,
@@ -141,6 +150,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    height: 85vh;
+  }
   .banner {
     width: 80vw;
     height: 50vh;
