@@ -18,6 +18,7 @@ import CareerCounsellingWorkshop from "./MyComponents/Event/CareerCounsellingWor
 import Partnerships from "../src/MyComponents/partnership/partnership.js";
 
 import Footer from "./MyComponents/Footer/Footer.js";
+import { useEffect } from "react";
 
 function App() {
   const galleryImages = [
@@ -40,6 +41,14 @@ function App() {
       img: "./images/events6.jpg",
     },
   ];
+
+  useEffect(() => {
+    const setVW = () => document.documentElement.style.setProperty('--vw', document.documentElement.clientWidth / 100 + 'px')
+    setVW()
+    const lnr = window.addEventListener('resize', setVW)
+    return () => window.removeEventListener('resize', lnr)
+  }, [])
+
   return (
     <Router>
       <div className="App">

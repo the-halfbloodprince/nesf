@@ -5,13 +5,6 @@ import { SparklesCore } from './AceternitySparkles'
 
 const NorthEastFestival2024Banner = () => {
 
-  useEffect(() => {
-    const setVW = () => document.documentElement.style.setProperty('--vw', document.documentElement.clientWidth / 100 + 'px')
-    setVW()
-    const lnr = window.addEventListener('resize', setVW)
-    return () => window.removeEventListener('resize', lnr)
-  }, [])
-
   return (
     <div className={styles.container}>
       <div className={styles.marqueeText}>
@@ -22,6 +15,7 @@ const NorthEastFestival2024Banner = () => {
       </div>
       <Tilt className={styles.tiltContainer} glareEnable={true}>
         <div className={styles.banner}>
+          <img src="/events/northeastfestival20241.png" alt="" />
           <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
