@@ -8,6 +8,8 @@ If issues in `npm i` then delete `package-lock.json`
 
 ## Pre-release targets
 
+- Performance
+  [x] Add image optimization bot
 - Layout
   - [x] Routes must be snake case or whatever it's called (`about-us`) <- this format
   - [ ] 404 page 
