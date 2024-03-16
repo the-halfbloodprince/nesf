@@ -6,6 +6,7 @@
 .images{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    place-content: space-around;
     gap: 3rem;
     max-width: 1200px;
     margin:auto;

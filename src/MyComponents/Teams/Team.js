@@ -146,7 +146,7 @@ const Team={
         },
         {
             name:"Penuel Daimari",
-            image:"https://media.licdn.com/dms/image/D5603AQHX5Oo8HYVl-w/profile-displayphoto-shrink_800_800/0/1668248314742?e=1708560000&v=beta&t=mFnJSZPbOvUPfkx5T7RnPrHXxqFfQ-EgvZi6k89smpg"
+            image:"sem/daimari.jpg"
         },
         {
             name:"Chisanamba G Momin",
